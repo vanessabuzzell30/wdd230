@@ -1,0 +1,35 @@
+
+body {
+  margin: auto;
+  width: 50%;
+  background-color: slategrey;
+}
+.body-box {
+  display: grid;
+  grid-template-rows: 2fr, 3fr, 1fr;
+  align-items: center;
+  justify-items: center;
+}
+.header-box {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-gap: 14px;
+  margin-top: 1em;
+  align-items: center;
+  justify-items: center;
+  background-color: rgb (8, 122, 167);
+  color: seashell;
+  border-radius: 6px;
+  padding: 16px;
+  width: 100%;
+}
+footer {
+  display: grid;
+  justify-items: center;
+  background-color: rgb (8, 122, 167);
+  color: seashell;
+  border-radius: 6px;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+}
