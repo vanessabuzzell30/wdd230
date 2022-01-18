@@ -6,7 +6,7 @@ body {
   color: rgb(26, 24, 24);
 }
 
-.second-title {
+.name2 {
   border-bottom: 1px solid white;
   font-weight: bold;
 }
@@ -22,11 +22,11 @@ header {
   box-shadow: 3px 3px 5px rgb(26, 24, 24);
 }
 
-.title {
+.name {
   text-align: center;
 }
 
-.content {
+.body-box {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
@@ -38,12 +38,13 @@ p {
   font-style: italic;
 }
 
-.main-image {
+.vanessaImage {
   text-align: center;
 }
 
 ul {
   font-family: 'Montserrat', sans-serif;
+  align-items: center;
 }
 
 a:hover {
