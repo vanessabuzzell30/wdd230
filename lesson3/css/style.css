@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Outfit&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@500&display=swap');
+
 
 h1, h2, h3, h4, h5, h6 {
-  color: #1ac8ed;
-  font-family: Mochiy Pop P One, Arial, sans-serif;
+  color: #dbcbd8;
+  font-family: 'Montserrat', sans-serif;
   letter-spacing: 1px;
   margin-top: 15px;
   margin-bottom: 0px;
@@ -15,22 +17,22 @@ h4, h5, h6 {
 
 header, footer {
   display: block;
-  background-color:#8c2155;
+  background-color:#564787;
   padding: 15px;
 }
 
 p {
-  color: white;
-  font-family: Outfit, Calibri, sans-serif
+  color: #f2fdff;
+  font-family: 'Lora', serif;
 }
 
 main {
-  background-color: #af7595;
+  background-color: #101935;
   padding: 5px;
 }
 
 body {
-  background-color: #aed4e6;
+  background-color: #9ad4d6;
 }
 
 h1 {
@@ -38,7 +40,7 @@ h1 {
 }
 
 a {
-  color: #aed4e6;
+  color: #9ad4d6;
 }
 
 nav ul {
@@ -63,6 +65,9 @@ div {
 
 img {
   max-width: 100%;
+}
+ul {
+  color: #f2fdff;
 }
 
 
@@ -115,4 +120,31 @@ img {
   }
 
   
+}
+section {
+  text-align: center;
+}
+.colors {
+  color: #f2fdff;
+}
+
+.color1 {
+  background-color: #564787;
+}
+
+.color2 {
+  background-color: #f2fdff;
+  color: black;
+}
+
+.color3 {
+  background-color: #101935;
+}
+
+.color4 {
+  background-color: #AED4E6;
+}
+
+.color5 {
+  background-color: #AED4E6;
 }
