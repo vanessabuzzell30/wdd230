@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@500&display=swap');
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    align-items: center;
+    background-color: #564787;
+    color: #dbcbd8;
+}
+
+.sub-header {
+    font-size: 0.5em;
+    white-space: nowrap;
+}
+
+header h1 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2
+}
+
+header nav {
+    grid-column: 3 / 5;
+    grid-row: 1 / 2
+}
+
+
+
+body {
+    background-color: #9ad4d6;
+}
+
+main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+   
+    color: #f2fdff;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+section {
+    text-align: center;
+    align-items: center;
+    border-radius: 5px;
+    background-color: #101935;
+}
+
+a {
+    color: #9ad4d6;
+}
+
+img {
+    width: 100px;
+    padding: 20px;
+}
+
+p {
+    color: #f2fdff;
+}
+
+h3, h4 {
+    color: #dbcbd8;
+}
+
+nav {
+    display: none;
+}
+
+button {
+    border: none;
+    background: none;
+    color: inherit;
+    font-family: inherit;
+    margin-bottom: 10rem;
+    font-size: 20px;
+    grid-row: 1 / 2;
+    grid-column: 5 / 6;
+}
+
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: #9ad4d6;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    background-color: #101935;
+    font-size: 1.7em;
+    transition: font-size 300ms;
+}
+
+ul {
+    color: #f2fdff;
+}
+
+footer {
+    color: #f2fdff;
+    background-color: #564787;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.colors {
+    color: #f2fdff;
+}
+
+.color1 {
+  background-color: #564787;
+}
+
+.color2 {
+  background-color: #f2fdff;
+  color: black;
+}
+
+.color3 {
+  background-color: #101935;
+}
+
+.color4 {
+  background-color: #AED4E6;
+}
+
+.color5 {
+  background-color: #AED4E6;
+}
+.event {
+    grid-row: 2 / 2;
+}
+
+.weather {
+    grid-row: 3 / 3;
+}
+
+.action {
+    grid-row: 1 / 2;
+}
+
+.spot-3 {
+    display: none;
+}
+
+.join {
+    display: none;
+}
+
+.news {
+    grid-row: 4 / 4;
+}
+
+.responsive {
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr 1fr;
+    position: relative;
+    text-align: right;
+    padding: 1.5rem;
+    margin-bottom: 50px;
+}
+
+.responsive a:hover {
+    background-color: #101935;
+    font-size: 1.6em;
+    transition: font-size 300ms;
+}
