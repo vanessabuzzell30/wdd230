@@ -1,8 +1,7 @@
 body {
   max-width: 50%;
   margin: 1em auto;
-  background-color: whitesmoke;
-  text-shadow: 2px 3px 5px rgb(107, 106, 106);
+  background-color: white;
   color: rgb(26, 24, 24);
 }
 
@@ -52,7 +51,7 @@ a:hover {
 }
 
 a {
-  color: #033646;
+  color: #177C9C;
   
 }
 
