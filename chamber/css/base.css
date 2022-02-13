@@ -6,109 +6,7 @@ html {
     font-size: 1rem;
 }
 
-header {
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr;
-    grid-template-rows: 1fr;
-    align-items: center;
-    background-color: #564787;
-    color: #dbcbd8;
-}
 
-.sub-header {
-    font-size: 0.5em;
-    white-space: nowrap;
-}
-
-header h1 {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2
-}
-
-header nav {
-    grid-column: 3 / 5;
-    grid-row: 1 / 2
-}
-
-
-
-body {
-    background-color: #9ad4d6;
-}
-
-main {
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
-   
-    color: #f2fdff;
-    padding: 10px;
-    margin: 0 auto;
-}
-
-section {
-    text-align: center;
-    align-items: center;
-    border-radius: 5px;
-    background-color: #101935;
-}
-
-a {
-    color: #9ad4d6;
-}
-
-img {
-    width: 100px;
-    padding: 20px;
-}
-
-p {
-    color: #f2fdff;
-}
-
-h3, h4 {
-    color: #dbcbd8;
-}
-
-nav {
-    display: none;
-}
-
-button {
-    border: none;
-    background: none;
-    color: inherit;
-    font-family: inherit;
-    margin-bottom: 10rem;
-    font-size: 20px;
-    grid-row: 1 / 2;
-    grid-column: 5 / 6;
-}
-
-
-nav a {
-    display: block;
-    text-decoration: none;
-    color: #9ad4d6;
-    font-size: 1.5rem;
-}
-
-nav a:hover {
-    background-color: #101935;
-    font-size: 1.7em;
-    transition: font-size 300ms;
-}
-
-ul {
-    color: #f2fdff;
-}
-
-footer {
-    color: #f2fdff;
-    background-color: #564787;
-    text-align: center;
-    font-size: 1.2rem;
-}
 
 .colors {
     color: #f2fdff;
@@ -134,42 +32,268 @@ footer {
 .color5 {
   background-color: #AED4E6;
 }
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+}
+
+#banner {
+    display:none;
+    background-color: #292e1e;
+    text-align: center;
+    padding: .5rem;
+}
+
+header {
+    display: grid;
+    grid: 2fr 1fr / 1fr 2fr 2fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: .7em;
+    background-color: #7f0799;
+    color: #afbbf2;
+    padding: .6em;
+    grid-column-gap: .8rem;
+}
+
+.logo {width: 10px;}
+
+h1 {
+    padding-left: 5px;
+    justify-self: start;
+}
+
+button {
+    background-color: #d3fff3;
+    color: white;
+    border: none;
+    font-size: 2em;
+}
+
+button:hover {cursor: pointer;}
+
+.extra {display: none;}
+
+.date {
+    grid-row: 2/3;
+    grid-column: 1/5;
+    align-self: center;
+}
+
+nav {
+	margin: 0 auto;
+	max-width: 760px;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+    margin: 0;
+    padding: .5rem;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    font-size: 1em;
+    top: 15%;
+}
+
+.navigation li {display: none;}
+
+.navigation a {
+	display: block;
+	padding: 0.75rem 2vw;
+	text-decoration: none;
+	color: white;
+	transition: 0.2s;
+}
+
+nav ul li.active a, .navigation a:hover {background-color: #292e1e;}
+
+.hidden {display: none;}
+
+.toggle-btn {padding: 1em;}
+
+.social {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.responsive li {display: block;}
+
+.responsive ul {
+    position: absolute;
+    width: 100%;
+}
+
+.responsive a {background-color: #292e1e;}
+
+main {
+    display: grid;
+    grid-auto-rows: minmax(min-content, max-content);
+    grid-template-columns: 1fr;
+    grid-row-gap: 0;
+    margin-bottom: .5rem;
+    font-size: 1em;
+}
+
+main section {background-color: #7f0799;}
+
+main section h3 {
+    color: #292e1e;
+    background-color: #d3fff3;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    margin: 0;
+}
+
+main section h4, main section p {font-weight: lighter;}
+
+main section p a {
+    color: white;
+    font-weight: normal;
+    padding: 0 .25em;
+}
+
+main section p a:hover {color: #afbbf2;}
+
+.spotlight {
+    display: grid;
+    grid: 1fr 1fr / 1fr;
+    grid-row-gap: 1em;
+}
+
+.spotlight div {
+    border: 4px double #d3fff3;
+    margin: 0;
+}
+
+.spotlight div p {
+    color: black;
+    font-weight: normal;
+}
+#spotlight3 {display: none;}
+
+.join {display: none;}
+
+.logo {width: 75px;}
+
+.icon {width: 40px;}
+
+.social a img {
+    padding: .3em;
+}
+
+.hero {
+    display: grid;
+    grid: 1fr 1fr / 1fr 1fr;
+}
+
+.hero .hero-photo {
+    grid-column: 1/3;
+    grid-row: 1/3;
+    z-index: -1;
+    margin: 0;
+}
+
+.hero-photo img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero h2 {
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 1em;
+    color: #292e1e;
+    background-color: #d3fff3;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+    font-size: 2em;
+}
+
+.hero button {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    justify-self: right;
+    align-self: end;
+    padding: 10px;
+    border-radius: 7px;
+    margin-bottom: 1.5em;
+    margin-right: 1.5em;
+    font-size: 2em;
+    color: #292e1e;
+    background-color: #d3fff3;
+}
+
 .event {
-    grid-row: 2 / 2;
+    padding: 0 1em;
+    background-color: #9649cb;
+    color:white
+}
+
+.weather, .weather h3 {
+    background-color: #292e1e;
+    color: white;
+    padding: .5em;
 }
 
 .weather {
-    grid-row: 3 / 3;
+    color: white;
 }
 
-.action {
-    grid-row: 1 / 2;
+.weather img {
+    float: left;
 }
 
-.spot-3 {
-    display: none;
+.weather h4 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 2px auto;
 }
 
-.join {
-    display: none;
+#temp {
+    padding-left: 20px;
+}
+
+.weather h5 {
+    text-align: center;
+    font-weight: 500;
+    font-size: medium;
+    border-bottom: 2px white solid;
+    margin: 0;
+    margin-top: 13px;
+    padding-bottom: 5px;
 }
 
 .news {
-    grid-row: 4 / 4;
+    background-color: #292e1e;
+    color: white;
 }
 
-.responsive {
-    display: grid;
-    grid-auto-flow: row;
-    grid-auto-columns: 1fr 1fr;
-    position: relative;
-    text-align: right;
-    padding: 1.5rem;
-    margin-bottom: 50px;
+.news h3 {
+    padding: 1em 1em .5em 1em;
+    background-color: #292e1e;
+    color: white;
 }
 
-.responsive a:hover {
-    background-color: #101935;
-    font-size: 1.6em;
-    transition: font-size 300ms;
+.news p {
+    padding: 0 1em 0 1em;
+    margin-top: 5px;
+    font-weight: lighter;
 }
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #7f0799;
+    color: white;
+}
+
+.contact-info a {color: lightgray;}
+
+.contact-info a:hover {color: darkgray;}
+
+.wdd-info {padding: .5rem;}

@@ -20,3 +20,11 @@ if (day !== 1 | day !== 2) {
     banner_text.style.display = "none";
 
 }
+// To solve the mid resizing issue with responsive class on
+window.onresize = () => {
+    if (window.innerWidth > 760) {
+        mainnav.classList.remove('responsive');
+        exitbutton.classList.add("hidden");
+        ham.classList.remove("hidden");
+    }
+};
