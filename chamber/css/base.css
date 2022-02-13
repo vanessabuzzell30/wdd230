@@ -1,37 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@500&display=swap');
 
-html {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
-}
-
-
-
-.colors {
-    color: #f2fdff;
-}
-
-.color1 {
-  background-color: #564787;
-}
-
-.color2 {
-  background-color: #f2fdff;
-  color: black;
-}
-
-.color3 {
-  background-color: #101935;
-}
-
-.color4 {
-  background-color: #AED4E6;
-}
-
-.color5 {
-  background-color: #AED4E6;
-}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -178,7 +147,7 @@ main section p a:hover {color: #afbbf2;}
 .join {
     display: none;
     background-color: #9649cb;
-    color: black;
+    color: white;
 }
 
 .logo {width: 75px;}
