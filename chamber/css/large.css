@@ -64,7 +64,7 @@
 
 	#spotlight3 {display: initial;}
 
-    .navigation {
+  .navigation {
 		display: flex;
 		position: relative;
 	}
@@ -79,7 +79,7 @@
         border: none;
 	}
 
-    .menu {display: none;}
+  .menu {display: none;}
 
 
 }
