@@ -77,11 +77,21 @@
       <section class="hero">
         <h2>Welcome to Quinton</h2>
 
-        <div class="hero-photo">
-          <img src="images/wdd230-org.webp" alt="Action" loading="lazy" />
-          alt="Quinton chamber of commerce meeting" />
-        </div>
-
+        <picture class="hero-photo">
+          <source
+            media="(max-width: 33.9em)"
+            srcset="images/feildsSunset-small.jpg"
+          />
+          <source
+            media="(max-width: 829px)"
+            srcset="images/feildsSunset-Medium.jpg"
+          />
+          <source
+            media="(max-width: 1400px)"
+            srcset="images/feildsSunset-Large.jpg"
+          />
+          <img src="images/feildsSunset-Large.jpg" alt="feildsSunset" />
+        </picture>
         <button type="button" class="join-button">Join the Chamber</button>
       </section>
       <section class="news">
@@ -144,5 +154,6 @@
     <script src="js/date.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/windchill.js"></script>
+    <script src="js/lasy.js"></script>
   </body>
 </html>
