@@ -4,30 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Quinton County Chamber of Commerce home page."
+    />
+    <title>Quinton County Chamber of Commerce</title>
+    <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
     <link rel="stylesheet" href="css/large.css" />
-    <title>Directory</title>
-    <meta name="description" content="Colors" />
   </head>
-  <nav id="navigation" class="nav">
-    <div><a href="index.html">Home</a></div>
-    <div><a href="discover.html">Discover</a></div>
-    <div><a href="directory.html">Directory</a></div>
-    <div><a href="join.html">Join</a></div>
-    <div><a href="#">Contact</a></div>
-  </nav>
-
   <body>
+    <div id="banner">
+      Come join us for the chamber meet and greet Wednesday at 7:00 p.m
+    </div>
+    <header>
+      <img src="images/quinton.png" alt="logo" />
+      <h1>
+        Quinton County <span class="sub-header">Chamber of Commerce</span>
+      </h1>
+      <div class="current-date"></div>
+      <button id="hamburger"><span> ☰ </span></button>
+      <div class="social">
+        <a href="http://www.facebook.com/"
+          ><img src="images/facebook.png" alt="Facebook" class="icon"
+        /></a>
+        <a href="http://www.linkedin.com"
+          ><img src="images/Linkedin.png" alt="Linkedin" class="icon"
+        /></a>
+      </div>
+      <nav>
+        <button class="menu">
+          <span id="ham" class="toggle-btn"> &#9776; </span
+          ><span id="xbutton" class="hidden toggle-btn"> X </span>
+        </button>
+
+        <ul class="navigation">
+          <li class="active"><a href="#"> Home </a></li>
+          <li><a href="discover.html"> Discover </a></li>
+          <li><a href="#"> Directory </a></li>
+          <li><a href="#"> Join </a></li>
+          <li><a href="#"> Contact </a></li>
+        </ul>
+      </nav>
+      <div class="date"></div>
+    </header>
+    <main></main>
     <footer>
+      <div class="top-footer">
+        <section class="company">
+          <img
+            src="images/quinton.png"
+            alt="Quinton Chamber of Commerce logo"
+            class="logo"
+          />
+          <h2>Quinton Chamber of Commerce</h2>
+          <p>333 Center St, Virgina, Quinton 23141</p>
+        </section>
+        <div class="contact">
+          <p class="contact-info">QuintonChambers@gmail.com</p>
+          <p class="contact-info">(333)-333-3333</p>
+          <p class="contact-info">
+            <a
+              href="https://www.google.com/maps/place/Quinton,+VA/@37.5440502,-77.1248299,15z/data=!3m1!4b1!4m8!1m2!2m1!1s333+Center+St,+Virgina,+Quinton+23141!3m4!1s0x89b0e15c94e199c3:0xaac0c7cd1634e1d7!8m2!3d37.5342187!4d-77.1209752"
+              target="blank"
+            >
+              &Rarr; Location Map</a
+            >
+          </p>
+        </div>
+      </div>
+      <hr />
       <div>
         &copy;<span id="year">2022</span> WDD 230 Project | Vanessa buzzell |
-        virgina
+        Virgina
       </div>
-      <div>Chamber of Commerce - Quinton</div>
+
       <span id="updated"></span>
     </footer>
     <script src="js/date.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/windchill.js"></script>
   </body>
 </html>
