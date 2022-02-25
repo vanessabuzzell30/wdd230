@@ -102,5 +102,14 @@
         align-self: center;
     }
 
-    .contact {align-self: center;}
+    .contact {align-self: center;
+    }
+    .join-main {
+        grid-template-columns: 1fr;
+        justify-items: center;
+    }
+
+    .thankyou-main {
+        grid-row-gap: 0;
+    }
 }

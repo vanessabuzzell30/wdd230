@@ -40,16 +40,107 @@
         </button>
 
         <ul class="navigation">
-          <li class="active"><a href="#"> Home </a></li>
+          <li><a href="index.html"> Home </a></li>
           <li><a href="discover.html"> Discover </a></li>
-          <li><a href="#"> Directory </a></li>
-          <li><a href="#"> Join </a></li>
-          <li><a href="#"> Contact </a></li>
+          <li><a href="directory.html"> Directory </a></li>
+          <li class="active"><a href="join.html"> Join </a></li>
+          <li><a href="contact.html"> Contact </a></li>
         </ul>
       </nav>
       <div class="date"></div>
     </header>
-    <main></main>
+    <main class="join-main">
+      <h2>Join the Quinton Chamber of Commerce</h2>
+      <form method="get" action="thankyou.html">
+        <fieldset>
+          <legend>Primary Contact</legend>
+          <label class="top"
+            >First Name*<input type="text" name="fname" required
+          /></label>
+          <label class="top"
+            >Last Name*<input type="text" name="lname" required
+          /></label>
+          <label class="top"
+            >Email*<input
+              type="email"
+              name="email"
+              placeholder="someone@gmail.com"
+              required
+          /></label>
+          <label class="top"
+            >Phone*<input type="tel" name="phone" required
+          /></label>
+        </fieldset>
+        <fieldset>
+          <legend>Member Informaion</legend>
+          <label class="top"
+            >Business Position<input
+              type="text"
+              name="bus-position"
+              pattern="[A-Za-z\s-]{7,}"
+              title="Business Position"
+          /></label>
+          <label class="top"
+            >Business Name*<input
+              type="text"
+              name="bus-name"
+              title="Business Name"
+              required
+          /></label>
+          <label class="top"
+            >Business Description <br /><textarea
+              rows="3"
+              name="bus-description"
+            ></textarea>
+          </label>
+        </fieldset>
+        <fieldset>
+          <legend>Membership Package</legend>
+          <label class="sbs"
+            ><input type="radio" name="member" value="np" /><span class="level">
+              Non-profit </span
+            ><span class="cost"> Free </span></label
+          >
+          <p class="description">
+            Have your business listed in the quinton Chamber's online directory.
+          </p>
+          <label class="sbs"
+            ><input type="radio" name="member" value="bronze" /><span
+              class="level"
+              >Bronze </span
+            ><span class="cost"> $500 </span></label
+          >
+          <p class="description">
+            See some growth for your company by being included in our website
+            spotlights and online directory.
+          </p>
+          <label class="sbs"
+            ><input type="radio" name="member" value="silver" /><span
+              class="level"
+              >Silver </span
+            ><span class="cost"> $1,500 </span></label
+          >
+          <p class="description">
+            Stay up-to-date in the Chamber's events, receive spotlights, and be
+            included in the chamber's online directory.
+          </p>
+          <label class="sbs"
+            ><input type="radio" name="member" value="gold" /><span
+              class="level"
+              >Gold </span
+            ><span class="cost"> $3,500 </span></label
+          >
+          <p class="description">
+            Become a part of the conversation at executive meetings, formal
+            dinners, events, spotlights, and included in the online directory.
+          </p>
+        </fieldset>
+        <label
+          ><input type="hidden" id="submitdate" name="submitdate" value=""
+        /></label>
+        <input type="submit" class="submitBtn" value="Join the Chamber" />
+      </form>
+    </main>
     <footer>
       <div class="top-footer">
         <section class="company">
@@ -84,6 +175,5 @@
     </footer>
     <script src="js/date.js"></script>
     <script src="js/menu.js"></script>
-    <script src="js/windchill.js"></script>
   </body>
 </html>
