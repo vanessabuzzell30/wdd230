@@ -1,4 +1,4 @@
-const requestURL = '';
+const requestURL = 'https//vanessabuzzell30.github.io/wdd230/chamber/json/data.json';
 
 
 fetch(requestURL)
