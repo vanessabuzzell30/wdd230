@@ -1,5 +1,5 @@
 {
-  "businesses" [
+  "businesses": [
     {
       "name": "Dilly Deli",
       "address": "Smith",
@@ -84,5 +84,5 @@
       "website": "27 June 1844",
       "img-file": 14
     }
-  ];
-};
+  ]
+}
