@@ -6,17 +6,32 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        const prophets = jsonObject['prophets'];
-        // console.table(jsonObject);
-        prophets.forEach(displayProphets);
+      console.table(jsonObject); // temporary checking for valid response and data parsing
+      const prophets = jsonObject['prophets'];
+      prophets.forEach(displayProphets);
     });
+    function ordinal(number) {
+      let x = number % 10;
+      let y = number % 100;
+  
+      if (x === 1 && y !== 11) {
+          return `${number}st`;
+      } else if (x === 2 && y !== 12) {
+          return `${number}nd`;
+      } else if (x === 3 && y !== 13) {
+          return `${number}rd`;
+      }
+      return `${number}th`;
+  }
+
 
 function displayProphets(prophet) {
   let card = document.createElement('section');
 
   //h2 name
   let h2 = document.createElement('h2');
-  h2.textContent = `${prophet.name} ${prophet.lastname}`;
+  let prophetNum = ordinal(prophet.order);
+  h2.textContent = `${prophet.name} ${prophet.lastname} ${prophetNum}`;
   card.appendChild(h2);
 
   //p birth date
