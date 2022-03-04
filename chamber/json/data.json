@@ -69,10 +69,10 @@
       "phone": "(804) 932-5037",
       "website": "https://www.facebook.com/Suns-Cafe-116884448330810/",
       "img-file": "images/logoSuncafe.png"
-    }
+    },
     {
       "name": "New Kent Elementary",
-      "address": "11705 New Kent Hwy, New Kent, VA 23124",
+      "address": "11705 New Kent Hwy, \nNew Kent, VA 23124",
       "phone": "(804) 966-9663",
       "website": "http://nkes.newkentschools.org/",
       "img-file":"images/logoElementry.png"
