@@ -1,5 +1,5 @@
 // const requestURL = 'https://vanessabuzzell30.github.io/wdd230/chamber/json/data.json';
-const requestURL = "../json/data.json"
+const requestURL = "https://vanessabuzzell30.github.io/wdd230/chamber/json/data.json"
 const cards = document.querySelector('div.cards');
 const listButton = document.querySelector("#list-btn");
 const cardButton = document.querySelector("#card-btn");
