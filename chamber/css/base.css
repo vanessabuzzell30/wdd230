@@ -462,6 +462,7 @@ form label.top input:required {
 .list-view section {
     display: grid;
     grid-template-columns: 1fr;
+    
 }
 
 .card-view {
@@ -472,6 +473,7 @@ form label.top input:required {
 .card-view section {
     padding: .5em;
     margin: .5em;
+    gap: 1em;
 }
 
 .list-view-btn button {
