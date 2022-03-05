@@ -5,84 +5,84 @@
       "address": "6215 Chesapeake Cir, \nNew Kent, VA 23124",
       "phone": "(804) 557-5900",
       "website": "http://thedailyfixva.com/",
-      "img-file": "../images/logoDailyfix.png"
+      "imgfile": "images/logoDailyfix.png"
     },
     {
       "name": "Galaxy Herb",
       "address": "12101 New Kent Hwy, \nNew Kent, VA 23124",
       "phone": "(540) 661-8957",
       "website": "https://www.galaxy-herb.com/",
-      "img-file": "../images/logoGalaxyherb.webp"
+      "imgfile": "logoGalaxyherb.webp"
     },
     {
       "name": "White Oaks Soap",
       "address": "Mechanicsville, Virginia",
       "phone": "(804) 489-3911",
       "website": "https://www.etsy.com/shop/WhiteOaksSoap?ref=simple-shop-header-name&listing_id=919858275",
-      "img-file":"images/logoWhiteoakssoap.webp"
+      "imgfile":"logoWhiteoakssoap.webp"
     },
     {
       "name": "Food Lion",
       "address": "2589 New Kent Hwy, \nQuinton, VA 23141",
       "phone": "(804) 932-3188",
       "website": "https://www.foodlion.com/stores/va/quinton/1336/?utm_source=Yext&utm_medium=Organic&utm_campaign=Website",
-      "img-file": "images/logoFoodlion.png"
+      "imgfile": "logoFoodlion.png"
     },
     {
       "name": "Kilted Creamery",
       "address": "10550 New Kent Hwy Suite C, \nNew Kent, VA 23124",
       "phone": "(609) 579-9618",
       "website": "http://www.kiltedcreamery.com/",
-      "img-file": "images/logoKiltedcreamery.png"
+      "imgfile": "logoKiltedcreamery.png"
     },
     {
       "name": "Virginia Commonwealth University",
       "address": "907 Floyd Ave, \nRichmond, VA 23284",
       "phone": "(804) 828-1981",
       "website": "https://www.vcu.edu/",
-      "img-file": "images/logoVCU.jpeg"
+      "imgfile": "logoVCU.jpeg"
     },
     {
       "name": "New Kent Farmers' Market",
       "address": "7589 New Kent Hwy, \nNew Kent, VA 23124",
       "phone": "(804) 966-9683",
       "website": "https://www.co.new-kent.va.us/649/Farmers-Market",
-      "img-file": "images/logoFarmersmarket.png"
+      "imgfile": "logoFarmersmarket.png"
     },
     {
       "name": "Virginia Family Dentistry",
       "address": "7291 Market Pl Dr, \nQuinton, VA 23141",
       "phone": "(804) 932-4537",
       "website": "https://vadentist.com/",
-      "img-file": "images/logoFamilydentistry.png"
+      "imgfile": "logoFamilydentistry.png"
     },
     {
       "name": "Premier Auto Solutions & Sales LLC",
       "address": "3750 Pocahontas Trail, \nQuinton, VA 23141",
       "phone": "(804) 932-9333",
       "website": "https://www.premierautosolutionsva.com/",
-      "img-file": "images/logoAuto.png"
+      "imgfile": "logoAuto.png"
     },
     {
       "name": "Sun's Cafe",
       "address": "5309 New Kent Hwy \nQuinton, VA, 23141",
       "phone": "(804) 932-5037",
       "website": "https://www.facebook.com/Suns-Cafe-116884448330810/",
-      "img-file": "images/logoSuncafe.png"
+      "imgfile": "logoSuncafe.png"
     },
     {
       "name": "New Kent Elementary",
       "address": "11705 New Kent Hwy, \nNew Kent, VA 23124",
       "phone": "(804) 966-9663",
       "website": "http://nkes.newkentschools.org/",
-      "img-file":"images/logoElementry.png"
+      "imgfile":"logoElementry.png"
     },
     {
       "name": "The Church Of Jesus Christ Of Latter-Day Saints",
       "address": "9770 Pocahontas Trl \nProvidence Forge, VA 23140",
       "phone": "(804) 833-6206",
       "website": "https://www.churchofjesuschrist.org/comeuntochrist",
-      "img-file": "images/logoChurch.webp"
+      "imgfile": "logoChurch.webp"
     }
   ]
 }
