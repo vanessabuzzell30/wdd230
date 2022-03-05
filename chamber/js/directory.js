@@ -1,4 +1,8 @@
-const requestURL = 'https//vanessabuzzell30.github.io/wdd230/chamber/json/data.json';
+// const requestURL = 'https://vanessabuzzell30.github.io/wdd230/chamber/json/data.json';
+const requestURL = "json/data.json"
+const cards = document.querySelector('div.cards');
+const listButton = document.querySelector("#list-btn");
+const cardButton = document.querySelector("#card-btn");
 
 
 fetch(requestURL)
@@ -16,7 +20,7 @@ function displayBusinesses(business) {
 
   //img
   let image = document.createElement('img');
-  image.src = business.imageurl;
+  image.src = business.imgfile;
   image.setAttribute('alt', business.name);
   card.appendChild(image);
 
@@ -37,9 +41,17 @@ function displayBusinesses(business) {
 
   //p website
   let p3 = document.createElement('p');
-  p2.textContent = business.website;
+  p3.textContent = business.website;
   card.appendChild(p3);
 
-  document.querySelector('div.cards').appendChild(card);
+  cards.appendChild(card);
 
 }
+
+listButton.addEventListener("click", ()=> {
+    cards.classList.replace("card-view", "list-view")
+});
+
+cardButton.addEventListener("click", ()=> {
+    cards.classList.replace("list-view", "card-view")
+});

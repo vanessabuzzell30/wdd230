@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/wdd230/chamber/" />
     <meta
       name="description"
       content="Quinton County Chamber of Commerce home page."
     />
     <title>Quinton County Chamber of Commerce</title>
-    <base href="/wdd230/chamber/" />
     <link rel="shortcut icon" href="favicon.ico" />
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/medium.css" />
@@ -53,7 +53,15 @@
     <main>
       <section class="directory">
         <h2>Business Directory</h2>
-        <div class="cards"></div>
+        <div class="list-view-btn">
+          <button id="list-btn">
+            <img src="images/list.png" alt="list view button" width="50" />
+          </button>
+          <button id="card-btn">
+            <img src="images/cardList.png" alt="list view button" width="50" />
+          </button>
+        </div>
+        <div class="cards list-view"></div>
       </section>
     </main>
     <footer>
