@@ -5,14 +5,14 @@
       "address": "6215 Chesapeake Cir, \nNew Kent, VA 23124",
       "phone": "(804) 557-5900",
       "website": "http://thedailyfixva.com/",
-      "img-file": "images/logoDailyfix.png"
+      "img-file": "../images/logoDailyfix.png"
     },
     {
       "name": "Galaxy Herb",
       "address": "12101 New Kent Hwy, \nNew Kent, VA 23124",
       "phone": "(540) 661-8957",
       "website": "https://www.galaxy-herb.com/",
-      "img-file": "images/logoGalaxyherb.webp"
+      "img-file": "../images/logoGalaxyherb.webp"
     },
     {
       "name": "White Oaks Soap",
