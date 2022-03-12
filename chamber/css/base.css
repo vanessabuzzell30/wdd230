@@ -90,20 +90,17 @@ nav ul li.active a, .navigation a:hover {background-color: #292e1e;}
 
 .responsive li {display: block;}
 
-.responsive ul {
-    position: absolute;
-    width: 100%;
+ul.responsive {
+    z-index: 1;
 }
 
 .responsive a {background-color: #292e1e;}
 
 main {
-    display: grid;
-    grid-auto-rows: minmax(min-content, max-content);
-    grid-template-columns: 1fr;
-    grid-row-gap: 0;
     margin-bottom: .5rem;
     font-size: 1em;
+    padding: 2em;
+    max-width: 800px;
 }
 
 main section {background-color: #7f0799;}
@@ -126,6 +123,43 @@ main section p a {
 }
 
 main section p a:hover {color: #afbbf2;}
+h2 {
+    color: white;
+    background-color: #d3fff3;
+    font-size: xx-large;
+    text-align: center;
+    padding: 2rem;
+    margin:0;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #7f0799;
+    color: white;
+}
+
+.contact-info a {color: lightgray;}
+
+.contact-info a:hover {color: darkgray;}
+
+.wdd-info {padding: .5rem;}
+
+footer h3 {
+    padding-left: .5em;
+}
+
+.home-main section:not(:first-child){
+    padding: .5em;
+}
+
+.home-main section h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px;
+    margin: 0;
+}
 
 .spotlight {
     display: grid;
@@ -139,16 +173,27 @@ main section p a:hover {color: #afbbf2;}
 }
 
 .spotlight div p {
+    padding-left: .5em;
+    padding-right: .5em;
     color: white;
     font-weight: normal;
 }
 #spotlight3 {display: none;}
+
+.spotlight div h3 {
+    background-color: #9649cb;
+}
+
 
 .join {
     display: none;
     background-color: #9649cb;
     color: white;
 }
+.join h3 {
+    background-color: #9649cb;
+}
+.join {display: none;}
 
 .logo {width: 75px;}
 
@@ -194,18 +239,19 @@ main section p a:hover {color: #afbbf2;}
     justify-self: right;
     align-self: end;
     padding: 10px;
+    color: #292e1e;
+    background-color: #d3fff3;
     border-radius: 7px;
     margin-bottom: 1.5em;
     margin-right: 1.5em;
     font-size: 2em;
-    color: #292e1e;
-    background-color: #d3fff3;
 }
 
 .event {
-    padding: 0 1em;
+    
     background-color: #9649cb;
-    color:white
+    color:white;
+    padding: 0 1em;
 }
 
 .weather, .weather h3 {
@@ -220,15 +266,17 @@ main section p a:hover {color: #afbbf2;}
 
 .weather img {
     float: left;
+    padding-top: .5em;
 }
 
 .weather h4 {
     font-size: xx-large;
     font-weight: bold;
     margin: 2px auto;
+    padding-top: .5em;
 }
 
-#temp {
+#current-temp {
     padding-left: 20px;
 }
 
@@ -242,39 +290,31 @@ main section p a:hover {color: #afbbf2;}
     padding-bottom: 5px;
 }
 
-.news {
-    background-color: #292e1e;
-    color: white;
-}
 
 .news h3 {
-    padding: 1em 1em .5em 1em;
     background-color: #292e1e;
     color: white;
+    padding: 1em 1em .5em 1em;
 }
 
 .news p {
-    padding: 0 1em 0 1em;
     margin-top: 5px;
     font-weight: lighter;
+    padding: .5em 1em 0 1em;
 }
 
-footer {
-    text-align: center;
-    padding: 1em;
-    background-color: #7f0799;
-    color: white;
+.attribution{
+    font-size: xx-small;
 }
 
-.contact-info a {color: lightgray;}
 
-.contact-info a:hover {color: darkgray;}
-
-.wdd-info {padding: .5rem;}
 
 /******************
    Discover Page
 ******************/
+
+
+
 
 .discover-main {
     display: grid;
@@ -282,12 +322,8 @@ footer {
     grid-template-columns: minmax(min-content, max-content);
     max-width: 400px;
 }
-
-.discover-main h2 {
+.discover-main > p {
     color: #7f0799;
-    font-size:xx-large;
-    padding-left: 1em;
-    margin-bottom: auto;
 }
 
 .deck {
@@ -301,7 +337,7 @@ footer {
     justify-items: center;
     padding: 1em;
     margin: 1em auto;
-    background-color: #9649cb;
+    background-color: #BF6F7E40;
     /* z-index: -2; */
 }
 
@@ -318,22 +354,17 @@ footer {
     transition: filter 0.1s;
     /* z-index: -1; */
   }
-
-.discover-main > p {
-    font-style: italic;
-    color: white;
-}
 form {
-    margin: auto .5rem;
+    margin: .5rem;
+    min-width: 350px;
+
 }
 
-.join-main h2 {
-    text-align: center;
-    padding: 2rem;
-    color: white;
-    background-color: #7f0799;
-    margin:0;
+.join-main {
+    display: grid;
+    justify-content: center;
 }
+
 
 .description {
     display: none;
@@ -358,10 +389,10 @@ form legend {
 
 form label.top, form div {
     display: block;
-    padding-top: 1rem;
-    padding-right: 1rem;
     color: #7f0799;
     font-size: .8rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
 }
 
 form label.top input, form label.top select {
@@ -370,17 +401,17 @@ form label.top input, form label.top select {
     font-size: 1rem;
     border: solid 1px #999;
     border-radius: 4px;
-    padding: .75rem;
     color: #555;
     width: 100%;
     max-width: 20rem;
     background-color: rgba(0,0,0,0.1);
+    padding: .75rem;
 }
 
 form label.sbs {
     display:block;
-    padding: .75rem 0;
     color: #555;
+    padding: .75rem 0;
 }
 
 form textarea {
@@ -394,10 +425,10 @@ form input.submitBtn {
     background-color: #d3fff3;
     color: black;
     border-radius: 1rem;
-    padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 95%;
     max-width: 20rem;
+    padding: .75rem 1.5rem;
 }
 
 form input.submitBtn:hover {
@@ -407,7 +438,7 @@ form input.submitBtn:hover {
 }
 
 form label.top input:required {
-    border: #9649cb solid 2px;
+    border: #9649cb dotted 2px;
 }
 
 .level {
@@ -417,27 +448,27 @@ form label.top input:required {
 .cost {
     background-color: #9649cb;
     color: white;
-    padding: .25rem 1rem;
     margin-left: .5rem;
     border-radius: 10px;
+    padding: .25rem 1rem;
 }
 
 .thankyou-main {
     grid-template-columns: 1fr;
     font-size: xx-large;
-    padding: 1rem;
     justify-items: center;
+    padding: 1rem;
 }
 
 .thankyou-main h2 {
-    margin-bottom: 1rem;
+    margin: 1rem;
 }
 
 .thankyou-main p {
-    border: #9649cb dotted 3px;
-    padding: 1rem;
-    margin-top: 1rem;
+    border: #9649cb solid 3px;
+    margin-top: .5rem;
     font-size: medium;
+    padding: 1rem;
 }
 
 .thankyou-main img {
@@ -445,11 +476,18 @@ form label.top input:required {
     float: right;
     max-height: 400px;
 }
+
 .directory {
     text-align: center;
+    color: white;
+    border: 5px #d3fff3 solid;
 }
 
-.list-view img, .card-view>section h2 {display: none;}
+
+.list-view img, .card-view>section h2 {
+    display: none;
+    
+}
 
 .card-view img{
     display: block;
@@ -457,12 +495,14 @@ form label.top input:required {
     margin: auto;
 }
 
-.list-view>section h2 {display: block;}
+.list-view>section h3 {
+    display: block;
+}
 
 .list-view section {
     display: grid;
     grid-template-columns: 1fr;
-    
+    padding: 1em;
 }
 
 .card-view {
@@ -473,7 +513,10 @@ form label.top input:required {
 .card-view section {
     padding: .5em;
     margin: .5em;
-    gap: 1em;
+    
+}
+.list-view-btn {
+    padding: 0.5em;
 }
 
 .list-view-btn button {

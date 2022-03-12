@@ -14,11 +14,10 @@
 	.logo {width: 100px;}
 
 	main {
-		grid-template-columns: 1fr 2fr 1fr;
-		grid-auto-rows: minmax(min-content, max-content);
 		margin: .5em auto;
-		max-width: 800px;
+		max-width: 1000px;
 	}
+
 
 	.event {
 		grid-row: 1/2;
@@ -38,6 +37,7 @@
 	.hero {
 		grid-row: 1/3;
 		grid-column: 2/3;
+		min-width: 400px;
 	}
 
 	.hero h2 {
@@ -64,7 +64,7 @@
 
 	#spotlight3 {display: initial;}
 
-  .navigation {
+    .navigation {
 		display: flex;
 		position: relative;
 	}
@@ -79,8 +79,8 @@
         border: none;
 	}
 
-  .menu {display: none;
-	}
+    .menu {display: none;}
+
 	.discover-main {
 		display: grid;
 		grid-template-rows: minmax(min-content, max-content);
@@ -97,26 +97,11 @@
         border-radius: 5px;
     }
 
-	.thankyou-main {
-		grid: 1fr / 1fr 1fr;
-
-	}
-
 	.thankyou-main h2 {
-		align-self: end;
+		font-size: xx-large;
 	}
 
-	.thankyou-main p {
-		grid-column: 2/3;
-	}
-
-	.thankyou-main img {
-		grid-row: 1/3;
-		max-height: 450px;
-	}
 	.card-view {
-		grid-template-columns: repeat(3, 1fr);
-}
-
-
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
