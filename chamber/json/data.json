@@ -1,88 +1,100 @@
 {
-  "businesses": [
+  "business": [
     {
       "name" : "The Daily Fix",
       "address": "6215 Chesapeake Cir, \nNew Kent, VA 23124",
       "phone": "(804) 557-5900",
       "website": "http://thedailyfixva.com/",
-      "imgfile": "images/logoDailyfix.png"
+      "imgfile": "images/logoDailyfix.png",
+      "membership": "Gold"
     },
     {
       "name": "Galaxy Herb",
       "address": "12101 New Kent Hwy, \nNew Kent, VA 23124",
       "phone": "(540) 661-8957",
       "website": "https://www.galaxy-herb.com/",
-      "imgfile": "images/logoGalaxyherb.webp"
+      "imgfile": "images/logoGalaxyherb.webp",
+      "membership": "Gold"
     },
     {
       "name": "White Oaks Soap",
       "address": "Mechanicsville, Virginia",
       "phone": "(804) 489-3911",
       "website": "https://www.etsy.com/shop/WhiteOaksSoap?ref=simple-shop-header-name&listing_id=919858275",
-      "imgfile":"images/logoWhiteoakssoap.webp"
+      "imgfile":"images/logoWhiteoakssoap.webp",
+      "membership": "Bronze"
     },
     {
       "name": "Food Lion",
       "address": "2589 New Kent Hwy, \nQuinton, VA 23141",
       "phone": "(804) 932-3188",
       "website": "https://www.foodlion.com/stores/va/quinton/1336/?utm_source=Yext&utm_medium=Organic&utm_campaign=Website",
-      "imgfile": "images/logoFoodlion.png"
+      "imgfile": "images/logoFoodlion.png",
+      "membership": "Bronze"
     },
     {
       "name": "Kilted Creamery",
       "address": "10550 New Kent Hwy Suite C, \nNew Kent, VA 23124",
       "phone": "(609) 579-9618",
       "website": "http://www.kiltedcreamery.com/",
-      "imgfile": "images/logoKiltedcreamery.png"
+      "imgfile": "images/logoKiltedcreamery.png",
+      "membership": "Bronze"
     },
     {
       "name": "Virginia Commonwealth University",
       "address": "907 Floyd Ave, \nRichmond, VA 23284",
       "phone": "(804) 828-1981",
       "website": "https://www.vcu.edu/",
-      "imgfile": "images/logoVCU.jpeg"
+      "imgfile": "images/logoVCU.jpeg",
+      "membership": "Silver"
     },
     {
       "name": "New Kent Farmers' Market",
       "address": "7589 New Kent Hwy, \nNew Kent, VA 23124",
       "phone": "(804) 966-9683",
       "website": "https://www.co.new-kent.va.us/649/Farmers-Market",
-      "imgfile": "images/logoFarmersmarket.png"
+      "imgfile": "images/logoFarmersmarket.png",
+      "membership": "Silver"
     },
     {
       "name": "Virginia Family Dentistry",
       "address": "7291 Market Pl Dr, \nQuinton, VA 23141",
       "phone": "(804) 932-4537",
       "website": "https://vadentist.com/",
-      "imgfile": "images/logoFamilydentistry.png"
+      "imgfile": "images/logoFamilydentistry.png",
+      "membership": "Sliver"
     },
     {
       "name": "Premier Auto Solutions & Sales LLC",
       "address": "3750 Pocahontas Trail, \nQuinton, VA 23141",
       "phone": "(804) 932-9333",
       "website": "https://www.premierautosolutionsva.com/",
-      "imgfile": "images/logoAuto.png"
+      "imgfile": "images/logoAuto.png",
+      "membership": "Silver"
     },
     {
       "name": "Sun's Cafe",
       "address": "5309 New Kent Hwy \nQuinton, VA, 23141",
       "phone": "(804) 932-5037",
       "website": "https://www.facebook.com/Suns-Cafe-116884448330810/",
-      "imgfile": "images/logoSuncafe.png"
+      "imgfile": "images/logoSuncafe.png",
+      "membership": "Gold"
     },
     {
       "name": "New Kent Elementary",
       "address": "11705 New Kent Hwy, \nNew Kent, VA 23124",
       "phone": "(804) 966-9663",
       "website": "http://nkes.newkentschools.org/",
-      "imgfile":"images/logoElementry.png"
+      "imgfile":"images/logoElementry.png",
+      "membership": "Bronze"
     },
     {
       "name": "The Church Of Jesus Christ Of Latter-Day Saints",
       "address": "9770 Pocahontas Trl \nProvidence Forge, VA 23140",
       "phone": "(804) 833-6206",
       "website": "https://www.churchofjesuschrist.org/comeuntochrist",
-      "imgfile": "images/logoChurch.webp"
+      "imgfile": "images/logoChurch.webp",
+      "membership": "Gold"
     }
   ]
 }
