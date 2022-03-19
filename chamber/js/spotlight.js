@@ -1,4 +1,4 @@
-const requestURL = "https://github.com/vanessabuzzell30/wdd230/blob/8e2bd98634be87da2b9c7f682d25fb7a2f412568/chamber/json/data.json"
+const requestURL = "https://vanessabuzzell30.github.io/wdd230/chamber/json/data.json"
 const spotlightItems = document.querySelectorAll(".spotlight-item")
 
 fetch(requestURL)
@@ -7,8 +7,8 @@ fetch(requestURL)
     })
     .then(function (jsonObject) {
         const businesses = jsonObject['businesses'];
-        const filteredBusinesses = businesses.filter((businesses) => {
-            return businesses.membership == "Bronze" || businesses.membership == "Silver" || businesses.membership == "Gold";
+        const filteredBusinesses = businesses.filter((business) => {
+            return business.membership == "Bronze" || business.membership == "Silver" || business.membership == "Gold";
         });
         spotlightItems.forEach((spotlight,index) => {
             const i = Math.floor(Math.random()*filteredBusinesses.length);
