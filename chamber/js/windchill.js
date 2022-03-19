@@ -3,8 +3,8 @@ const apiURL = 'https://api.openweathermap.org/data/2.5/weather?q=Richmond&units
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    const t = jsObject.main.temp.toFixed(1);
-    document.querySelector('#current-temp').textContent = t;
+    const te = jsObject.main.temp.toFixed(1);
+    document.querySelector('#current-temp').textContent = te;
 
     const iconsrc= `https://openweathermap.org/img/w/${jsObject.weather[0].icon}.png`;
     const desc = jsObject.weather[0].description;

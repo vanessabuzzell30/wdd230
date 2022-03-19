@@ -8,6 +8,11 @@
       name="description"
       content="Quinton County Chamber of Commerce home page."
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
     <title>Quinton County Chamber of Commerce</title>
     <link rel="shortcut icon" href="faviconPack/favicon.ico" />
     <link rel="stylesheet" href="css/base.css" />
@@ -45,10 +50,8 @@
       Come join us for the chamber meet and greet Wednesday at 7:00 p.m
     </div>
     <header>
-      <img src="images/QuintonLogo.webp" alt="logo" />
-      <h1>
-        Quinton County <span class="sub-header">Chamber of Commerce</span>
-      </h1>
+      <img src="images/QuintonLogo.webp" alt="logo" class="logo" />
+      <h1>Quinton County <span class="extra">Chamber of Commerce</span></h1>
       <div class="current-date"></div>
 
       <div class="social">
@@ -109,23 +112,26 @@
         </section>
         <section class="weather">
           <h3>WEATHER</h3>
-          <img src="" alt="" id="weathericon" />
+          <img src="#" alt="" id="weathericon" />
           <h4><span id="current-temp"></span> &#176;F</h4>
           <h5><span id="desc"></span></h5>
           <p>Wind Speed: <span id="speed"></span> mph</p>
           <p>Wind Chill: <span id="windchill"></span></p>
         </section>
         <section class="join">
-          <h3>JOIN</h3>
-          <button>Join Us!</button>
+          <h3 class="home-section-heading">JOIN</h3>
+          <a href="join.html" class="button-link"> Join Us! </a>
           <p>
             Discover how to join our Chamber of Commerce and the benefits
-            available to you!
+            available to you and your Buissness!
           </p>
         </section>
         <section class="news">
           <h3>NEWS</h3>
-          <p>The Quinton Chamber of Commerce is celebrating its 25th</p>
+          <p>
+            The Quinton Chamber of Commerce is celebrating its 25th year as a
+            new town.
+          </p>
         </section>
         <section class="spotlight">
           <h3 class="home-section-heading">SPOTLIGHT</h3>
@@ -143,7 +149,7 @@
             alt="Quinton Chamber of Commerce logo"
             class="logo"
           />
-          <h2>Quinton Chamber of Commerce</h2>
+          <h3>Quinton Chamber of Commerce</h3>
           <p>333 Center St, Virgina, Quinton 23141</p>
         </section>
         <div class="contact">
@@ -160,12 +166,13 @@
         </div>
       </div>
       <hr />
-      <div>
-        &copy;<span id="year">2022</span> WDD 230 Project | Vanessa buzzell |
-        Virgina
+      <div class="wdd-info">
+        &copy;<span id="currentyear"></span> | Vanessa Buzzell | Virgina
       </div>
-
       <span id="updated"></span>
+      <p class="attribution">
+        The weather information has been provided by OpenWeatherMap
+      </p>
     </footer>
     <script src="js/date.js"></script>
     <script src="js/menu.js"></script>
