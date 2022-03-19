@@ -1,4 +1,4 @@
-const requestURL = "https://vanessabuzzell30.github.io/wdd230/chamber/json/data.json"
+const requestURL = "data.json"
 const spotlightItems = document.querySelectorAll(".spotlight-item")
 
 fetch(requestURL)
