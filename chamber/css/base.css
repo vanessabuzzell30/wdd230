@@ -372,7 +372,7 @@ form {
 
 form fieldset {
     margin: 2rem 0;
-    border: 2px dotted #292e1e;
+    border: 2px dashed #292e1e;
     border-radius: 10px;
     padding: .5rem 2.5%;
     max-width: 25rem;
@@ -438,7 +438,7 @@ form input.submitBtn:hover {
 }
 
 form label.top input:required {
-    border: #9649cb dotted 2px;
+    border: #9649cb double 2px;
 }
 
 .level {
@@ -530,3 +530,40 @@ form label.top input:required {
 .list-view section:nth-child(2n) {
     background-color: #9649cb;
 }
+
+.contact-main {
+    display:grid;
+    justify-items: center;
+}
+
+.contact-main .submitBtn {
+    margin-left: 2.2rem;
+}
+
+.information {
+    margin-bottom: 1rem;
+}
+
+.visit-us {
+    background-color: #9649cb;
+    color: white;
+    margin-top: .5rem;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    max-height: 300px;
+}
+
+.visit-us h3, .contact-point h3 {
+    font-size: x-large;
+}
+
+.contact-point {
+    background-color: #7f0799;
+    color: white;
+    margin-top: .5rem;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    max-height: 300px;
+}
+
+

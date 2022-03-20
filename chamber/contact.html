@@ -9,11 +9,7 @@
       name="description"
       content="Quinton County Chamber of Commerce home page."
     />
-    <base href="/wdd230/chamber/" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-    />
+
     <title>Quinton County Chamber of Commerce</title>
     <link rel="shortcut icon" href="faviconPack/favicon.ico" />
     <link rel="stylesheet" href="css/base.css" />
@@ -82,7 +78,67 @@
       <div class="date"></div>
     </header>
     <h2>Contact Us</h2>
-    <main></main>
+    <main>
+      <div class="contact-main">
+        <form method="get" action="thankyou-contact.html">
+          <fieldset>
+            <legend>Let Us Get To Know You</legend>
+            <label class="top"
+              >First Name*<input type="text" name="fname" required
+            /></label>
+            <label class="top"
+              >Last Name*<input type="text" name="lname" required
+            /></label>
+            <label class="top"
+              >Email*<input
+                type="email"
+                name="email"
+                placeholder="someone@gmail.com"
+                required
+            /></label>
+            <label class="top"
+              >Phone*<input type="tel" name="phone" required
+            /></label>
+            <label class="top"
+              >Questions or comments<br /><textarea
+                rows="3"
+                name="bus-description"
+              ></textarea>
+            </label>
+          </fieldset>
+          <input type="submit" class="submitBtn" value="Contact Us" />
+        </form>
+
+        <div class="google-map">
+          <iframe
+            src="https://www.google.com/maps/place/Quinton,+VA/@37.5440502,-77.1248299,15z/data=!3m1!4b1!4m8!1m2!2m1!1s333+Center+St,+Virgina,+Quinton+23141!3m4!1s0x89b0e15c94e199c3:0xaac0c7cd1634e1d7!8m2!3d37.5342187!4d-77.1209752"
+            width="300"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div class="information">
+          <section class="visit-us">
+            <h3>Visit Us</h3>
+            <p>
+              Quinton Chamber of Commerce<br />333 Center St, <br />Virgina,
+              Quinton 23141
+            </p>
+            <p>(333)-333-3333</p>
+          </section>
+          <section class="contact-point">
+            <h3>Point of Contact</h3>
+            <h4>Vanessa Buzzell</h4>
+            <p>
+              (333)-444-4444 <br />
+              QuintonChambers@gmail.com
+            </p>
+          </section>
+        </div>
+      </div>
+    </main>
     <footer>
       <div class="top-footer">
         <section class="company">

@@ -90,12 +90,12 @@
 	.description {
         display: block;
 		font-size: smaller;
-    }
+  }
 
 	.join-main h2 {
         margin-top: 1rem;
         border-radius: 5px;
-    }
+  }
 
 	.thankyou-main h2 {
 		font-size: xx-large;
@@ -104,4 +104,21 @@
 	.card-view {
         grid-template-columns: repeat(3, 1fr);
     }
+		.contact-main form {
+			grid-column: 1/2;
+			justify-self: right;
+		}
+	
+		.google-map {
+			grid-column: 3/4;
+			margin-top: 2rem;
+			margin-left: 10px;
+		}
+	
+		.information {
+			grid-column: 2/3;
+			grid-row: 1/2;
+			margin-top: 2rem;
+		}
+	
 }
