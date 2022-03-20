@@ -247,10 +247,10 @@ footer h3 {
     font-size: 2em;
 }
 
-.event {
+.event h3 {
     
     background-color: #9649cb;
-    color:white;
+    color: black;
     padding: 0 1em;
 }
 
