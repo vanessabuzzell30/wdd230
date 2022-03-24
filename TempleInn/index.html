@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Macy Whitney" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Utah Valley Chamber of Commerce || Home</title>
+    <meta
+      name="description"
+      content="The home page for the Utah Valley Chamber of Commerce"
+    />
+    <base href="/wdd230/chamber/" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link href="css/base.css" rel="stylesheet" />
+    <link href="css/medium.css" rel="stylesheet" />
+    <link href="css/large.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;600;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="banner">
+      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m
+    </div>
+    <header>
+      <img
+        src="images/utvalleylogo.webp"
+        alt="Utah Valley Chamber of Commerce logo"
+        class="logo"
+      />
+      <h1>
+        Utah Valley
+        <span class="extra"
+          ><br />
+          Chamber of Commerce
+        </span>
+      </h1>
+      <div class="social">
+        <a href="https://facebook.com" target="_blank"
+          ><img src="images/facebook.svg" alt="Facebook logo" class="icon"
+        /></a>
+        <a href="https://linkedin.com" target="_blank"
+          ><img src="images/linkedin.svg" alt="LinkedIn logo" class="icon"
+        /></a>
+      </div>
+      <nav>
+        <button class="menu">
+          <span id="ham" class="toggle-btn"> &#9776; </span
+          ><span id="xbutton" class="hidden toggle-btn"> X </span>
+        </button>
+
+        <ul class="navigation">
+          <li class="active"><a href="index.html"> Home </a></li>
+          <li><a href="temple.html"> Temple </a></li>
+          <li><a href="reservation.html">Reservation </a></li>
+          <li><a href="services.html"> Services </a></li>
+          <li><a href="contact.html"> Contact </a></li>
+        </ul>
+      </nav>
+      <div class="date"></div>
+    </header>
+
+    <main>
+      <div class="home-main">
+        <section class="hero">
+          <h2>Welcome to Utah Valley</h2>
+          <picture class="hero-photo">
+            <source
+              media="(max-width: 33.9em)"
+              srcset="images/UtahValleySmall.jpg"
+            />
+            <source
+              media="(max-width: 829px)"
+              srcset="images/UtahValleyMedium.jpg"
+            />
+            <source
+              media="(max-width: 1400px)"
+              srcset="images/UtahValleyLarge.jpg"
+            />
+            <img
+              src="images/UtahValleyLarge.jpg"
+              alt="Utah Valley cities and mountains"
+            />
+          </picture>
+          <a href="join.html" class="join-button button-link">
+            Join the Chamber
+          </a>
+        </section>
+        <section class="event">
+          <h3>EVENTS</h3>
+          <h4>⛳ Sleepy Ridge</h4>
+          <p>
+            Join us for a day of golf exclusively for our Chamber members at
+            Sleepy Ridge Golf Course, Thursday at 10 a.m.
+            <a href="#"> more info... </a>
+          </p>
+        </section>
+        <section class="weather">
+          <h3>WEATHER*</h3>
+          <img src="#" alt="" id="weathericon" />
+          <h4><span id="current-temp"></span> &#176;F</h4>
+          <h5><span id="desc"></span></h5>
+          <p>Wind Speed: <span id="speed"></span> mph</p>
+          <p>Wind Chill: <span id="windchill"></span></p>
+        </section>
+        <section class="join">
+          <h3 class="home-section-heading">JOIN</h3>
+          <a href="join.html" class="button-link"> Join Us! </a>
+          <p>
+            Discover how to join our Chamber of Commerce and the benefits
+            available to you!
+          </p>
+        </section>
+        <section class="news">
+          <h3>NEWS</h3>
+          <p>
+            The Utah Valley Chamber of Commerce is celebrating its 50th
+            anniversary this month! As one of the most resourceful connections
+            for local businesses here in Utah, we are proud to play a part in
+            bringing our communities closer together. All members of the Chamber
+            will recieve special pins and coins to commemorate this wonderful
+            event!
+          </p>
+        </section>
+        <section class="spotlight">
+          <h3 class="home-section-heading">SPOTLIGHT</h3>
+          <div class="spotlight-item"></div>
+          <div class="spotlight-item"></div>
+          <div class="spotlight-item" id="spotlight3"></div>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="top-footer">
+        <section class="company">
+          <img
+            src="images/utvalleylogo.webp"
+            alt="Utah Valley Chamber of Commerce logo"
+            class="logo"
+          />
+          <h3>Temple Inn & Suites</h3>
+          <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
+        </section>
+        <div class="contact">
+          <p class="contact-info"></p>
+          <p class="contact-info">360-774-0000</p>
+          <p class="contact-info">
+            <a
+              href="https://www.google.com/maps/place/100+E+Center+St,+Provo,+UT+84606/@40.2331166,-111.6593646,17z/data=!3m1!4b1!4m5!3m4!1s0x874d9753acfb9965:0x7736f69e891a3ab7!8m2!3d40.2331166!4d-111.6571759"
+              target="blank"
+            >
+              &Rarr; Location Map</a
+            >
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="wdd-info">
+        &copy;<span id="currentyear"></span> | Vanessa | Virgina
+      </div>
+      <span id="lastupdated"></span>
+      <p class="attribution">
+        *The weather information has been provided by OpenWeatherMap
+      </p>
+    </footer>
+    <script src="js/date.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/weatherapi.js"></script>
+    <script src="js/spotlight.js"></script>
+  </body>
+</html>

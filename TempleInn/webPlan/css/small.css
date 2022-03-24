@@ -1,0 +1,140 @@
+body{
+  font-size: 16px;
+  color: #0B2027;
+  background-color: #cfd7c7;
+  font-family: 'Dosis', sans-serif;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  font-size: 2.5em;
+}
+
+h2{
+  font-size: 1.7em;
+}
+
+nav{
+  background-color: #40798c;
+  text-align: center;
+  margin-top: 0;
+}
+
+nav ul{
+  list-style-type: none;
+  display: grid;
+  text-align: center;
+  grid-template-rows: repeat(4, 1fr);
+  padding-inline-start: 0;
+}
+
+nav li a{
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: .9rem;
+  padding: .75rem;
+}
+
+nav li a:hover{
+  background-color: #cfd7c7;
+  color: #0B2027;
+}
+
+.home-main{
+  display: grid;
+  grid-template-rows: auto;
+  align-items: center;
+  padding: .5em 2em;
+  text-align: center;
+  grid-column-gap: 10px;
+}
+
+img {
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  margin: auto;
+  font-size: 16px;
+  font-family: 'Abhaya Libre', serif;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+  color:white;
+  background-color: #40798c;
+  margin-top: 1em;
+}
+
+footer a:link{
+  color: lightblue;
+}
+
+footer a:visited{
+  color:#f6f1d1;
+}
+
+#lastupdated {
+  font-style: italic;
+  font-size: smaller;
+}
+
+.colors-main h2{
+  text-align: center;
+}
+
+#colors-sample{
+  display: grid;
+  grid: repeat(5,1fr)/ 1fr;
+  margin: .5em;
+  padding-bottom: .6em;
+  color: white;
+}
+
+#colors-sample p{
+  width: 80%;
+  text-align: center;
+  padding: 1em;
+}
+
+#color1{
+  color: black;
+  background-color: #f6f1d1;
+}
+
+#color2{
+  color: black;
+  background-color: #cfd7c7;
+}
+
+#color3{
+  background-color: #70a9a1;
+}
+
+#color4{
+  background-color: #40798c;
+}
+
+#color5{
+  background-color: #0B2027;
+}
+
+.audience{
+  padding: 0 1em;
+  text-align: left;
+}
+
+.typography{
+  padding: 1em;
+}
+
+#colors-define{
+  padding: .5em 2em;
+}
