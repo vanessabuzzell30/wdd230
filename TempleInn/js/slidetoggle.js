@@ -16,7 +16,7 @@ $(document).ready(function(){
   $('#closuresSlideSea').hide();
   $('#summarySlideSea').hide();
 });
-// Copenhagen Slide Info
+// Mesa Arizona Slide Info
 $( "#mainInfoClickAri" ).click(function() {
   $('#mainInfoSlideAri').slideToggle( "slow", function() {
   });
@@ -34,7 +34,7 @@ $( "#summaryClickAri" ).click(function() {
   });
 });
 
-// Johannesburg Slide Info
+// Adelaide Australia Slide Info
 $( "#mainInfoClickAust" ).click(function() {
   $('#mainInfoSlideAust').slideToggle( "slow", function() {
   });
@@ -52,7 +52,7 @@ $( "#summaryClickAust" ).click(function() {
   });
 });
 
-// Las Vegas Slide Info
+// San Diego California Slide Info
 $( "#mainInfoClickCali" ).click(function() {
   $('#mainInfoSlideCali').slideToggle( "slow", function() {
   });
@@ -70,7 +70,7 @@ $( "#summaryClickCali" ).click(function() {
   });
 });
 
-// Portland Slide Info
+// Seattle Washington Slide Info
 $( "#mainInfoClickSea" ).click(function() {
   $('#mainInfoSlideSea').slideToggle( "slow", function() {
   });
