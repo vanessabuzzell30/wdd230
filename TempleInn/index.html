@@ -1,179 +1,244 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="author" content="Macy Whitney" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Utah Valley Chamber of Commerce || Home</title>
+    <meta charset="utf-8" />
     <meta
-      name="description"
-      content="The home page for the Utah Valley Chamber of Commerce"
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
     />
-    <base href="/wdd230/chamber/" />
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    <meta name="description" content="Book a hotel with Hotel Inn and Suites" />
+    <meta
+      name="keywords"
+      content="Hotel,Motel,Inn,Suites,Suite,Book A Room,Free WiFi"
     />
-    <link href="css/base.css" rel="stylesheet" />
-    <link href="css/medium.css" rel="stylesheet" />
-    <link href="css/large.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;400;600;900&display=swap"
-      rel="stylesheet"
-    />
+    <title>Temple Inn and Suites</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/small.css" />
+    <link rel="stylesheet" type="text/css" href="css/medium.css" />
+    <link rel="stylesheet" type="text/css" href="css/large.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
   </head>
-  <body>
-    <div id="banner">
-      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m
-    </div>
-    <header>
-      <img
-        src="images/utvalleylogo.webp"
-        alt="Utah Valley Chamber of Commerce logo"
-        class="logo"
-      />
-      <h1>
-        Utah Valley
-        <span class="extra"
-          ><br />
-          Chamber of Commerce
-        </span>
-      </h1>
-      <div class="social">
-        <a href="https://facebook.com" target="_blank"
-          ><img src="images/facebook.svg" alt="Facebook logo" class="icon"
-        /></a>
-        <a href="https://linkedin.com" target="_blank"
-          ><img src="images/linkedin.svg" alt="LinkedIn logo" class="icon"
-        /></a>
-      </div>
-      <nav>
-        <button class="menu">
-          <span id="ham" class="toggle-btn"> &#9776; </span
-          ><span id="xbutton" class="hidden toggle-btn"> X </span>
-        </button>
 
-        <ul class="navigation">
-          <li class="active"><a href="index.html"> Home </a></li>
-          <li><a href="temple.html"> Temple </a></li>
-          <li><a href="reservation.html">Reservation </a></li>
-          <li><a href="services.html"> Services </a></li>
-          <li><a href="contact.html"> Contact </a></li>
+  <body>
+    <div class="stickIt">
+      <!-- Header -->
+      <header>
+        <div class="headerLeft">
+          <a href="index.html"
+            ><img
+              id="siteLogo"
+              src="images/icons/templelogo.webp"
+              alt="Temple Inn and Suites"
+          /></a>
+        </div>
+        <div class="headerRight">
+          <a href="tel:333-333-3333">333.333.3333</a>
+        </div>
+      </header>
+      <!-- Navigation -->
+      <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+        <ul id="primaryNav" class="navigation hide">
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="temple.html">Temple</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a id="endNav" href="contact.html">Contact</a></li>
         </ul>
       </nav>
-      <div class="date"></div>
-    </header>
+    </div>
 
-    <main>
-      <div class="home-main">
-        <section class="hero">
-          <h2>Welcome to Utah Valley</h2>
-          <picture class="hero-photo">
-            <source
-              media="(max-width: 33.9em)"
-              srcset="images/UtahValleySmall.jpg"
-            />
-            <source
-              media="(max-width: 829px)"
-              srcset="images/UtahValleyMedium.jpg"
-            />
-            <source
-              media="(max-width: 1400px)"
-              srcset="images/UtahValleyLarge.jpg"
-            />
-            <img
-              src="images/UtahValleyLarge.jpg"
-              alt="Utah Valley cities and mountains"
-            />
-          </picture>
-          <a href="join.html" class="join-button button-link">
-            Join the Chamber
-          </a>
-        </section>
-        <section class="event">
-          <h3>EVENTS</h3>
-          <h4>⛳ Sleepy Ridge</h4>
-          <p>
-            Join us for a day of golf exclusively for our Chamber members at
-            Sleepy Ridge Golf Course, Thursday at 10 a.m.
-            <a href="#"> more info... </a>
-          </p>
-        </section>
-        <section class="weather">
-          <h3>WEATHER*</h3>
-          <img src="#" alt="" id="weathericon" />
-          <h4><span id="current-temp"></span> &#176;F</h4>
-          <h5><span id="desc"></span></h5>
-          <p>Wind Speed: <span id="speed"></span> mph</p>
-          <p>Wind Chill: <span id="windchill"></span></p>
-        </section>
-        <section class="join">
-          <h3 class="home-section-heading">JOIN</h3>
-          <a href="join.html" class="button-link"> Join Us! </a>
-          <p>
-            Discover how to join our Chamber of Commerce and the benefits
-            available to you!
-          </p>
-        </section>
-        <section class="news">
-          <h3>NEWS</h3>
-          <p>
-            The Utah Valley Chamber of Commerce is celebrating its 50th
-            anniversary this month! As one of the most resourceful connections
-            for local businesses here in Utah, we are proud to play a part in
-            bringing our communities closer together. All members of the Chamber
-            will recieve special pins and coins to commemorate this wonderful
-            event!
-          </p>
-        </section>
-        <section class="spotlight">
-          <h3 class="home-section-heading">SPOTLIGHT</h3>
-          <div class="spotlight-item"></div>
-          <div class="spotlight-item"></div>
-          <div class="spotlight-item" id="spotlight3"></div>
-        </section>
-      </div>
-    </main>
-
-    <footer>
-      <div class="top-footer">
-        <section class="company">
-          <img
-            src="images/utvalleylogo.webp"
-            alt="Utah Valley Chamber of Commerce logo"
-            class="logo"
+    <!-- Hero Image -->
+    <div class="containerMain" id="homeContent">
+      <div class="heroContainer">
+        <picture>
+          <source
+            media="(max-width: 415px)"
+            srcset="images/home/hotelTittleS.jpg"
           />
-          <h3>Temple Inn & Suites</h3>
-          <p>4800 Montgomery Ln #300, Bethesda, MD 20814</p>
-        </section>
-        <div class="contact">
-          <p class="contact-info"></p>
-          <p class="contact-info">360-774-0000</p>
-          <p class="contact-info">
-            <a
-              href="https://www.google.com/maps/place/100+E+Center+St,+Provo,+UT+84606/@40.2331166,-111.6593646,17z/data=!3m1!4b1!4m5!3m4!1s0x874d9753acfb9965:0x7736f69e891a3ab7!8m2!3d40.2331166!4d-111.6571759"
-              target="blank"
-            >
-              &Rarr; Location Map</a
-            >
-          </p>
+          <source
+            media="(min-width: 416px)"
+            srcset="images/home/hotelTittleC.jpg"
+          />
+          <img
+            id="backgroundHeroImage"
+            src="images/home/hotelTittleS.jpg"
+            alt="Beautiful Room - book now"
+          />
+        </picture>
+        <a href="reservation.html" class="bookNowBtn">Book Now</a>
+      </div>
+
+      <main>
+        <!-- Welcome Text -->
+        <div id="mainWelcome">
+          <div id="welcomeText">
+            <h1>Temple Inn & Suites</h1>
+            <p id="welcomeSubTitle">
+              Doing work for the dead can be exhausting, let us help
+              <strong>YOU</strong> rest in peace!
+            </p>
+            <p>
+              We are happy you are here. While you prepare for your temple trip,
+              we are preparing for you. We have many services and accomodations
+              to meet your needs, and will be here for you. If you have any
+              questions please give us a call, 999.999.9999. We are ready to
+              help, and we are looking forward to your stay with us. If you are
+              ready set up your reservation you can do so
+              <a href="reservation.html">here</a>.
+            </p>
+            <p>
+              Temple Inn & Suites caters to temple workers, patrons, and their
+              families by providing specialized service and accomodations that
+              meet the needs of those patrons. These hotel accomodations and
+              services are available to anyone willing to abide by the terms and
+              policies outlined by our company.
+            </p>
+            <p>Thank you!</p>
+          </div>
+
+          <div id="mainImgDiv">
+            <picture>
+              <source
+                media="(max-width: 415px)"
+                srcset="images/home/hotelLobbyS.jpg"
+              />
+              <source
+                media="(min-width: 416px)"
+                srcset="images/home/hotelLobbyM1.jpg"
+              />
+              <img
+                id="backgroundImage"
+                src="images/home/hotelLobbyS.jpg"
+                alt="hotel lobby image"
+              />
+            </picture>
+          </div>
+        </div>
+
+        <div class="homeMain">
+          <!-- Temple Info -->
+          <div class="templeInfoContainer">
+            <div class="indTempImg">
+              <h2>Seattle Washington Temple</h2>
+              <img
+                src="images/temples/templeSeattleS.jpeg"
+                alt="Seattle Washingtion Temple"
+              />
+            </div>
+
+            <div class="templeTextContainer">
+              <div class="mainTempleInfoHome">
+                <h3>Address</h3>
+                <p>
+                  2808 148th Ave SE Bellevue WA 98007-6453 United States
+                </p>
+                <h3>Telephone</h3>
+                <p>(1) 425-643-5144</p>
+                <h3>Services</h3>
+                <p>Clothing rental available</p>
+                <p>No Cafeteria available</p>
+                <p>No patron housing available</p>
+                <p>Distribution center nearby</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Amenities Summary -->
+          <section class="amenitiesHome">
+            <h2>Free Amenities Include</h2>
+            <ul>
+              <li>Breakfast</li>
+              <li>Excersize/workout room</li>
+              <li>Indoor pool</li>
+              <li>WiFi high-speed internet access</li>
+              <li>Smart tvs</li>
+              <li>Parking</li>
+              <li>Temple shuttle</li>
+              <li>Family history consultation</li>
+              <li>Family ordinance card services</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      <div id="preFooter">
+        <div id="prefootMid">
+          <div id="map">
+            <iframe
+              title="hotelMainMap"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.409032436697!2d-77.09900308425124!3d38.983160179557466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1544482533359"
+              style="border: 0"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div id="bottomfooterinfo">
+            <h4>Temple Inn & Suites</h4>
+
+            <address>
+              <div class="footerBzInfo">
+                <div>
+                  <img src="images/icons/locationicon.png" alt="location icon" />
+                </div>
+                <div>
+                  <p>4810 Montgomery Ln #500, Bethseda, MD 20814</p>
+                </div>
+              </div>
+            </address>
+
+            <div class="footerBzInfo">
+              <img src="images/icons/phoneicon.png" alt="phone icon" /><a href="tel:333-333-3333">333.333.3333</a>
+            </div>
+
+            <div class="footerBzInfo">
+              <img src="images/icons/mailicon.png" alt="mail icon" /><a
+                href="mailto:templeinnsuites@tis.com"
+                >templeinnsuites@tis.com</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div id="midfootMid">
+          <div class="iconLinks">
+            <a href="https://www.facebook.com"
+              ><img src="images/icons/facebookIcon.png" alt="facebook icon"
+            /></a>
+            <a href="instagram.com"
+              ><img src="images/icons/instagramIcon.png" alt="instagram icon"
+            /></a>
+            <a href="twitter.com"
+              ><img src="images/icons/twitterIcon.png" alt="twitter icon"
+            /></a>
+          </div>
         </div>
       </div>
-      <hr />
-      <div class="wdd-info">
-        &copy;<span id="currentyear"></span> | Vanessa | Virgina
+
+      <div class="bottomFooter">
+        <div>
+          <p>
+            &copy;2022 Temple Inn & Suites | Attributions | Vanessa Buzzell
+          </p>
+        </div>
+          <a href="resource.html">Resources</a>
+        </div>
       </div>
-      <span id="lastupdated"></span>
-      <p class="attribution">
-        *The weather information has been provided by OpenWeatherMap
-      </p>
     </footer>
-    <script src="js/date.js"></script>
+
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My Scripts -->
     <script src="js/menu.js"></script>
-    <script src="js/weatherapi.js"></script>
-    <script src="js/spotlight.js"></script>
+    <script src="js/buttons.js"></script>
+    <script src="js/weather.js"></script>
   </body>
 </html>

@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=5"
+    />
+    <meta
+      name="description"
+      content="Temple locations for Hotel Inn and Suites"
+    />
+    <meta
+      name="keywords"
+      content="Hotel Near Temple,Motel Near Temple,Inn Near Temple,Suites Near Temple,Suite Near Temple,Book A Room Near Temple,Free WiFi Near Temple"
+    />
+    <title>Temples</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/small.css" />
+    <link rel="stylesheet" type="text/css" href="css/medium.css" />
+    <link rel="stylesheet" type="text/css" href="css/large.css" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+  </head>
+
+  <body>
+    <div class="stickIt">
+      <!-- Header -->
+      <header>
+        <div class="headerLeft">
+          <a href="index.html"
+            ><img
+              id="siteLogo"
+              src="images/icons/templelogo.webp"
+              alt="Temple Inn and Suites"
+          /></a>
+        </div>
+        <div class="headerRight">
+          <a href="tel:333-333-3333">333.333.3333</a>
+        </div>
+      </header>
+
+      <!-- Navigation -->
+      <nav>
+        <button onclick="toggleMenu()">&#9776; Menu</button>
+
+        <ul id="primaryNav" class="navigation hide">
+          <li><a href="index.html">Home</a></li>
+          <li class="active"><a href="temple.html">Temple</a></li>
+          <li><a href="reservation.html">Reservation</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a id="endNav" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <h1 class="pageTitle">Temples</h1>
+    <!-- Mesa Arizona Temple -->
+    <div class="templeInfoContainer templeTop">
+      <div class="indTempImg">
+        <div>
+          <h2 class="titleWeather" id="temple3Title">Mesa Arizona Temple</h2>
+          <img
+            src="images/temples/templesArizonaS.jpeg"
+            alt="Mesa Arizona Temple"
+          />
+        </div>
+        <section class="weatherSumBox">
+          <div class="weatherDetails">
+            <h3>Weather Summary</h3>
+            <hr />
+            <div class="wImageDiv">
+              <div id="wImageAri"></div>
+            </div>
+            <div class="weatherInfoLine">
+              <p class="label">Currently:</p>
+              <p class="value" id="imgDescriptionAri"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Temperature:</p>
+              <p class="value" id="curTempAri"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Humidity:</p>
+              <p class="value" id="humidityAri"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Precipitation:</p>
+              <p class="value" id="precipitationAri"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Wind Speed:</p>
+              <p class="value" id="windAri"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Wind chill:</p>
+              <p class="value" id="windChillAri"></p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="templeTextContainer">
+        <h4>Click on any of the options below for more information:</h4>
+        <div class="mainTempleInfo">
+          <h3 class="clickSlideToggle" id="mainInfoClickAri">Contact Info</h3>
+          <hr />
+          <div id="mainInfoSlideAri">
+            <div class="templeInfoContainerBox">
+              <h3>Address</h3>
+              <p>101 S LeSueur Mesa AZ 85204-1031 United States</p>
+            </div>
+            <div class="templeInfoContainerBox">
+              <h3>Telephone</h3>
+              <p>(1) 480-833-1211</p>
+            </div>
+          </div>
+
+          <h3 class="clickSlideToggle" id="servicesClickAri">
+            Services and Schedules
+          </h3>
+          <hr />
+          <div id="servicesSlideAri">
+            <div class="templeInfoContainerBox">
+              <h3>Services</h3>
+              <p>Clothing rental available</p>
+              <p>No cafeteria available</p>
+              <p>No patron housing available</p>
+              <p>Distribution center nearby</p>
+            </div>
+
+            <div class="templeInfoContainerBox">
+              <h3>Ordinance Schedule</h3>
+              <p>For schedule information, please call the temple.</p>
+            </div>
+
+            <div class="templeInfoContainerBox">
+              <h3>Session Schedule</h3>
+              <p>For schedule information, please call the temple.</p>
+            </div>
+          </div>
+
+          <h3 class="clickSlideToggle" id="closuresClickAri">
+            Temple Closures
+          </h3>
+          <hr />
+          <div id="closuresSlideAri">
+            <div class="closures templeInfoContainerBox">
+              <h3>Closures</h3>
+              <div id="marizonaClosures"></div>
+            </div>
+          </div>
+
+          <h3 class="clickSlideToggle" id="summaryClickAri">Temple History</h3>
+          <hr />
+          <div id="summarySlideAri">
+            <div class="templeInfoContainerBox">
+              <h3>History</h3>
+              <p>October 1, 1919 - Announced</p>
+              <p>April 25, 1922 - Groundbreaking</p>
+              <p>October 23, 1927 - Dedication</p>
+              <p>April 15, 1975 - Rededicated</p>
+              <p>December 12, 2021 - Rededicated</p>
+            </div>
+
+            <div class="templeInfoContainerBox">
+              <h3>Summary</h3>
+              <p>
+                Plans to construct the temple were announced 1 October 1919,
+                Church leaders broke ground 25 April 1922, and Heber J. Grant,
+                president of The Church of Jesus Christ of Latter-day Saints
+                from 1918 to 1945, dedicated the Mesa Arizona Temple 23 October
+                1927. The temple was renovated and rededicated 15 April 1975 by
+                Spencer W. Kimball, Church President from 1973 to 1985. The
+                temple serves Latter-day Saints in southern Arizona.
+              </p>
+              <p>
+                The 113,916-square-foot temple’s exterior is terra cotta glaze
+                that is egg-shell in color and tile-like in finish.
+              </p>
+              <p>
+                Reference -
+                https://newsroom.churchofjesuschrist.org/article/mesa-arizona-temple
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Adelaide Australia Temple -->
+    <div class="templeInfoContainer">
+      <div class="indTempImg">
+        <div>
+          <h2 class="titleWeather" id="temple1Title">
+            Adelaide Australia Temple
+          </h2>
+          <img
+            src="images/temples/templeAustraliaS.jpeg"
+            alt="Adelaide Australia Temple"
+          />
+        </div>
+
+        <section class="weatherSumBox">
+          <div class="weatherDetails">
+            <h3>Weather Summary</h3>
+            <hr />
+
+            <div class="wImageDiv">
+              <div id="wImageAust"></div>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Currently:</p>
+              <p class="value" id="imgDescriptionAust"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Temperature:</p>
+              <p class="value" id="curTempAust"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Humidity:</p>
+              <p class="value" id="humidityAust"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Precipitation:</p>
+              <p class="value" id="precipitationAust"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Wind Speed:</p>
+              <p class="value" id="windAust"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Wind chill:</p>
+              <p class="value" id="windChillAust"></p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="templeTextContainer">
+        <h4>Click on any of the options below for more information:</h4>
+        <div class="mainTempleInfo">
+          <h3 class="clickSlideToggle" id="mainInfoClickAust">Contact Info</h3>
+          <hr />
+          <div id="mainInfoSlideAust">
+            <div class="templeInfoContainerBox">
+              <h3>Address</h3>
+              <p>53-59 Lower Portrush Rd Marden SA 5070 Australia</p>
+            </div>
+            <div class="templeInfoContainerBox">
+              <h3>Telephone</h3>
+              <p>(61) 8-8363-8000</p>
+            </div>
+          </div>
+
+          <h3 class="clickSlideToggle" id="servicesClickAust">
+            Services and Schedules
+          </h3>
+          <hr />
+          <div id="servicesSlideAust">
+            <div class="templeInfoContainerBox">
+              <h3>Services</h3>
+              <p>No clothing rental available</p>
+              <p>No cafeteria available</p>
+              <p>No patron housing available</p>
+              <p>No distribution center nearby</p>
+            </div>
+
+            <div class="templeInfoContainerBox">
+              <h3>Ordinance Schedule</h3>
+              <p>For schedule information, please call the temple.</p>
+            </div>
+
+            <div class="templeInfoContainerBox">
+              <h3>Session Schedule</h3>
+              <p>For schedule information, please call the temple.</p>
+            </div>
+          </div>
+
+          <h3 class="clickSlideToggle" id="closuresClickAust">
+            Temple Closures
+          </h3>
+          <hr />
+          <div id="closuresSlideAust">
+            <div class="closures templeInfoContainerBox">
+              <h3>Closures</h3>
+              <div id="aaustraliaClosures"></div>
+            </div>
+          </div>
+
+          <h3 class="clickSlideToggle" id="summaryClickAust">Temple History</h3>
+          <hr />
+          <div id="summarySlideAust">
+            <div class="templeInfoContainerBox">
+              <h3>History</h3>
+              <p>March 17, 1999 - Announced</p>
+              <p>May 29, 1999 - Groundbreaking</p>
+              <p>June 15, 2000 - Dedicated</p>
+            </div>
+            <div class="templeInfoContainerBox">
+              <h3>Summary</h3>
+              <p>
+                Plans to construct the temple were announced 17 March 1999,
+                Church leaders broke ground 29 May 1999 and Gordon B. Hinckley,
+                president of The Church of Jesus Christ of Latter-day Saints
+                from 1995 to 2008, dedicated the Adelaide Australia Temple 15
+                Jun 2000. The temple serves Latter-day Saints in southern
+                Australia.
+              </p>
+              <p>
+                The exterior of the 10,700-square-foot temple is snow white
+                granite and the grounds are landscaped with native vegetation.
+              </p>
+
+              <p>
+                Reference -
+                https://newsroom.churchofjesuschrist.org/article/adelaide-australia-temple
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- San Diego California Temple -->
+    <div class="templeInfoContainer">
+      <div class="indTempImg">
+        <div>
+          <h2 class="titleWeather" id="temple2Title">
+            San Diego California Temple
+          </h2>
+          <img
+            src="images/temples/californiaTempleS.jpeg"
+            alt="San Diego California Temple"
+          />
+        </div>
+
+        <section class="weatherSumBox">
+          <div class="weatherDetails">
+            <h3>Weather Summary</h3>
+            <hr />
+            <div class="wImageDiv">
+              <div id="wImageCali"></div>
+            </div>
+            <div class="weatherInfoLine">
+              <p class="label">Currently:</p>
+              <p class="value" id="imgDescriptionCali"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Temperature:</p>
+              <p class="value" id="curTempCali"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Humidity:</p>
+              <p class="value" id="humidityCali"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Precipitation:</p>
+              <p class="value" id="precipitationCali"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Wind Speed:</p>
+              <p class="value" id="windCali"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Wind chill:</p>
+              <p class="value" id="windChillCali"></p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="templeTextContainer">
+        <h4>Click on any of the options below for more information:</h4>
+        <div class="mainTempleInfo">
+          <h3 class="clickSlideToggle" id="mainInfoClickCali">Contact Info</h3>
+          <hr />
+          <div id="mainInfoSlideCali">
+            <div class="templeInfoContainerBox">
+              <h3>Address</h3>
+              <p>7474 Charmant Dr San Diego CA 92122-5000 United States</p>
+            </div>
+            <div class="templeInfoContainerBox">
+              <h3>Telephone</h3>
+              <p>(1) 858-622-0991</p>
+            </div>
+          </div>
+
+          <h3 class="clickSlideToggle" id="servicesClickCali">
+            Services and Schedules
+          </h3>
+          <hr />
+          <div id="servicesSlideCali">
+            <div class="templeInfoContainerBox">
+              <h3>Services</h3>
+              <p>Clothing rental available</p>
+              <p>No cafeteria available</p>
+              <p>No patron housing available</p>
+              <p>Distribution center nearby</p>
+            </div>
+
+            <div class="templeInfoContainerBox">
+              <h3>Ordinance Schedule</h3>
+              <p>For schedule information, please call the temple.</p>
+            </div>
+
+            <div class="templeInfoContainerBox">
+              <h3>Session Schedule</h3>
+              <p>For schedule information, please call the temple.</p>
+            </div>
+          </div>
+
+          <h3 class="clickSlideToggle" id="closuresClickCali">
+            Temple Closures
+          </h3>
+          <hr />
+          <div id="closuresSlideCali">
+            <div class="closures templeInfoContainerBox">
+              <h3>Closures</h3>
+              <div id="sdcaliforniaClosures"></div>
+            </div>
+          </div>
+
+          <h3 class="clickSlideToggle" id="summaryClickCali">Temple History</h3>
+          <hr />
+          <div id="summarySlideCali">
+            <div class="templeInfoContainerBox">
+              <h3>History</h3>
+              <p>April 7, 1984 - Announced</p>
+              <p>February 27, 1988 - Groundbreaking</p>
+              <p>April 25, 1993 - Dedicated</p>
+            </div>
+            <div class="templeInfoContainerBox">
+              <h3>Summary</h3>
+              <p>
+                Plans to construct the temple were announced 7 April 1984,
+                Church leaders broke ground 27 February 1988, and President
+                Gordon B. Hinckley, then first counselor in the First Presidency
+                of The Church of Jesus Christ of Latter-day Saints, dedicated
+                the San Diego California Temple 25 April 1993. The temple serves
+                Latter-day Saints in the San Diego area and northwestern Mexico.
+              </p>
+              <p>
+                The 72,000-square-foot temple’s exterior is marble chips in
+                plaster.
+              </p>
+              <p>
+                Reference -
+                https://newsroom.churchofjesuschrist.org/article/san-diego-california-temple
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Seattle Washington Temple -->
+    <div class="templeInfoContainer templeBottom">
+      <div class="indTempImg">
+        <div>
+          <h2 class="titleWeather" id="temple4Title">
+            Seattle Washington Temple
+          </h2>
+          <img
+            src="images/temples/templeSeattleS.jpeg"
+            alt="Seattle Washington Temple"
+          />
+        </div>
+        <section class="weatherSumBox">
+          <div class="weatherDetails">
+            <h3>Weather Summary</h3>
+            <hr />
+            <div class="wImageDiv">
+              <div id="wImageSea"></div>
+            </div>
+            <div class="weatherInfoLine">
+              <p class="label">Currently:</p>
+              <p class="value" id="imgDescriptionSea"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Temperature:</p>
+              <p class="value" id="curTempSea"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Humidity:</p>
+              <p class="value" id="humiditySea"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Precipitation:</p>
+              <p class="value" id="precipitationSea"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Wind Speed:</p>
+              <p class="value" id="windSea"></p>
+            </div>
+
+            <div class="weatherInfoLine">
+              <p class="label">Wind chill:</p>
+              <p class="value" id="windChillSea"></p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="templeTextContainer">
+        <h4>Click on any of the options below for more information:</h4>
+        <div class="mainTempleInfo">
+          <h3 class="clickSlideToggle" id="mainInfoClickSea">Contact Info</h3>
+          <hr />
+          <div id="mainInfoSlideSea">
+            <div class="templeInfoContainerBox">
+              <h3>Address</h3>
+              <p>2808 148th Ave SE Bellevue WA 98007-6453 United States</p>
+            </div>
+            <div class="templeInfoContainerBox">
+              <h3>Telephone</h3>
+              <p>(1) 425-643-5144</p>
+            </div>
+          </div>
+
+          <h3 class="clickSlideToggle" id="servicesClickSea">
+            Services and Schedules
+          </h3>
+          <hr />
+          <div id="servicesSlideSea">
+            <div class="templeInfoContainerBox">
+              <h3>Services</h3>
+              <p>Clothing rental available</p>
+              <p>No Cafeteria available</p>
+              <p>No patron housing available</p>
+              <p>Distribution center nearby</p>
+            </div>
+
+            <div class="templeInfoContainerBox">
+              <h3>Ordinance Schedule</h3>
+              <p>For schedule information, please call the temple.</p>
+            </div>
+
+            <div class="templeInfoContainerBox">
+              <h3>Session Schedule</h3>
+              <p>For schedule information, please call the temple.</p>
+            </div>
+          </div>
+
+          <h3 class="clickSlideToggle" id="closuresClickSea">
+            Temple Closures
+          </h3>
+          <hr />
+          <div id="closuresSlideSea">
+            <div class="closures templeInfoContainerBox">
+              <h3>Closures</h3>
+              <div id="swashingtonClosures"></div>
+            </div>
+          </div>
+
+          <h3 class="clickSlideToggle" id="summaryClickSea">Temple History</h3>
+          <hr />
+          <div id="summarySlideSea">
+            <div class="templeInfoContainerBox">
+              <h3>History</h3>
+              <p>November 15, 1975 - Announced</p>
+              <p>May 27, 1978 - Groundbreaking</p>
+              <p>November 17, 1980 - Dedicated</p>
+            </div>
+            <div class="templeInfoContainerBox">
+              <h3>Summary</h3>
+              <p>
+                Plans to construct the temple were announced 15 November 1975,
+                Church leaders broke ground 27 May 1978, and Spencer W. Kimball,
+                president of The Church of Jesus Christ of Latter-day Saints
+                from 1973 to 1985, dedicated the Seattle Washington Temple 17
+                November 1980. The temple serves Latter-day Saints in western
+                Washington.
+              </p>
+              <p>
+                The 110,000-square-foot temple’s exterior is reinforced concrete
+                faced with white marble aggregate and cast stone.
+              </p>
+              <p>
+                reference -
+                https://newsroom.churchofjesuschrist.org/eng/article/seattle-washington-temple
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button onclick="topFunction()" id="smallViewBtoTop">Back To Top</button>
+
+    <!-- Footer -->
+    <footer>
+      <div id="preFooter">
+        <div id="prefootMid">
+          <div id="map">
+            <iframe
+              title="hotelMainMap"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3101.409032436697!2d-77.09900308425124!3d38.983160179557466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7c97c9d6d973d%3A0xb64f1e3725476c15!2s4810+Montgomery+Ln+%23500%2C+Bethesda%2C+MD+20814!5e0!3m2!1sen!2sus!4v1544482533359"
+              style="border: 0"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <div id="bottomfooterinfo">
+            <h4>Temple Inn & Suites</h4>
+
+            <address>
+              <div class="footerBzInfo">
+                <div>
+                  <img
+                    src="images/icons/locationicon.png"
+                    alt="location icon"
+                  />
+                </div>
+                <div>
+                  <p>4810 Montgomery Ln #500, Bethseda, MD 20814</p>
+                </div>
+              </div>
+            </address>
+
+            <div class="footerBzInfo">
+              <img src="images/icons/phoneicon.png" alt="phone icon" /><a
+                href="tel:333-333-3333"
+                >333.333.3333</a
+              >
+              >
+            </div>
+
+            <div class="footerBzInfo">
+              <img src="images/icons/mailicon.png" alt="mail icon" /><a
+                href="mailto:templeinnsuites@tis.com"
+                >templeinnsuites@tis.com</a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div id="midfootMid">
+          <div class="iconLinks">
+            <a href="https://www.facebook.com"
+              ><img src="images/icons/facebookIcon.png" alt="facebook icon"
+            /></a>
+            <a href="instagram.com"
+              ><img src="images/icons/instagramIcon.png" alt="instagram icon"
+            /></a>
+            <a href="twitter.com"
+              ><img src="images/icons/twitterIcon.png" alt="twitter icon"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="bottomFooter">
+        <div>
+          <p>&copy;2022 Temple Inn & Suites | Attributions | Vanessa Buzzell</p>
+        </div>
+        <div>
+          <a href="resource.html">Resources</a>
+        </div>
+
+        <!-- <p id="openWeatherLink"><a href="https://openweathermap.org/">Open Weather Map</a></p>
+            <p id="pexelsLink"><a href="https://www.pexels.com/">Pexels Free Stock Photos</a></p>        -->
+      </div>
+    </footer>
+    <!-- JQuery CDN -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- My Scripts -->
+    <script src="js/slidetoggle.js"></script>
+    <script src="js/buttons.js"></script>
+    <script src="js/getTempleData.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>

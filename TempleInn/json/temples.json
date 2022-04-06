@@ -1,0 +1,47 @@
+{
+  "temple": [
+      {
+          "name": "Mesa Arizona Temple",
+          "closures": [
+              { "date": "Tuesday, 5 April 2022 - Saturday, 16 April 2022 (Limited Operations)"},
+              { "date": "Monday, 18 July 2022 - Monday, 1 August 2022"}, 
+              { "date": "Saturday, 1 October 2022"},
+              { "date": "Wednesday, 23 November 2022 (Limited Operations)"}, 
+              { "date": "Thursday, 24 November 2022"}, 
+              { "date": "Saturday, 24 December 2022" }
+          ]
+      },
+      {
+          "name": "Adelaide Australia Temple",
+          "closures": [
+              {"date": "Saturday, 9 April 2022"},
+              {"date": "Saturday, 16 April 2022"},
+              {"date": "Monday, 18 April 2022 - Monday, 25 April 2022"},
+              {"date": "Saturday, 8 October 2022"},
+              {"date": "Monday, 10 October 2022 - Monday, 24 October 2022"},
+              {"date": "Saturday, 24 December 2022"},
+              {"date": "Saturday, 31 December 2022"}
+          ]
+      },
+      {
+          "name": "San Diego California Temple",
+          "closures": [
+              {"date": "Saturday, 1 October 2022"}, 
+              {"date": "Wednesday, 23 November 2022 - Thursday, 24 November 2022"}, 
+              {"date": "Saturday, 24 December 2022"}, 
+              {"date": "Saturday, 31 December 2022"} 
+          ]
+      },
+      {
+          "name": "Seattle Washington Temple",
+          "closures": [
+              {"date": "Monday, 4 July 2022"},
+              {"date": "Monday, 8 August 2022 - Monday, 22 August 2022"},
+              {"date": "Saturday, 1 October 2022"},
+              {"date": "Wednesday, 23 November 2022 - Thursday, 24 November 2022"},
+              {"date": "Saturday, 24 December 2022 - Sunday, 25 December 2022"},
+              {"date": "Saturday, 31 December 2022 - Sunday, 1 January 2023"}
+          ]
+      }
+  ]
+}

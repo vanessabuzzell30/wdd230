@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&family=Dosis&display=swap');
+
+    /* General Main page styles  */
+    body {
+        width: 100%;
+        margin: 0;
+        background-color: #F6F1D1;
+        font-family: 'Dosis', sans-serif;
+        color: #0b2027;
+    }
+    h1, h2, h3 {
+        font-family: 'Abhaya Libre', serif;
+    }
+    h1 {
+        font-size: 2.625em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    h3 {
+        font-size: 1.5em;
+    }
+    p, li {
+        font-size: 1.125em;
+    }
+    ul {
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    .onHover:hover {
+        -webkit-box-shadow: 2px 8px 16px 2px #40798c;
+        -moz-box-shadow: 2px 8px 16px 2px #40798c;
+                box-shadow: 2px 8px 16px 2px #40798c;
+    }
+
+
+    /* Header */
+    header {
+        display: flex;
+        width: 100%;
+        margin: 0;
+        background-color: #70a9a1;
+    }
+    #siteLogo {
+        width: 10em;
+    }
+    #siteLogo:hover {
+        -webkit-filter: drop-shadow(5px 2px 2px #40798c);
+    filter: drop-shadow(5px 2px 2px #40798c);
+    }
+
+    .headerRight a {
+        color: #0b2027;
+    }
+    .headerRight a:hover {
+        color: #70a9a1;
+        text-decoration: overline underline;
+        text-decoration-color: #0b2027;
+    }
+    .stickIt {
+        position: sticky;
+        top: 0;
+        z-index: 5;
+    }
+
+    /* Navigation */
+    nav {
+        margin-top: -1em;
+        z-index: 15;
+        background-color: #F6F1D1;
+    }
+    nav button {
+        position: absolute;
+        border: none;
+        background: #cfd7c7;
+        font-weight: bold;
+    }
+    nav button:focus {outline:0;}
+    nav button:hover {
+        background-color: #cfd7c7;
+        color: #70a9a1;
+    }
+
+    /* Page Title */
+    .pageTitle {
+        background-color: #40798c;
+        text-align: center;
+        padding-top: 0.2em;
+        margin-top: 1em;
+        font-style: italic;
+        -webkit-box-shadow: 2px 8px 16px 2px #40798c;
+            -moz-box-shadow: 2px 8px 16px 2px #40798c;
+                    box-shadow: 2px 8px 16px 2px #40798c;
+    }
+
+    /* footer section */
+    #prefootMid img:hover {
+        box-shadow: 2px 4px 8px 2px 40798c, 0 6px 20px 0 40798c;
+        border-radius: 50%;
+    }
+    .footerBzInfo{
+        display: flex;
+    }
+    #preFooter {
+        margin-top: 5em;
+        background-color: #cfd7c7;
+    }
+
+    #preFooter h4 {
+        font-family: Dosis;
+    }
+    #prefootMid { 
+        display: flex;
+        color: #0b2027;
+    }
+    #prefootMid a{
+        color: #0b2027;
+        text-decoration: none;
+    }
+    #prefootMid a:hover {
+        color: #70a9a1;
+        text-decoration: overline underline;
+        text-decoration-color: #0b2027;
+    }
+    #midfootMid {
+        display: flex;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    #midfootMid a {   
+        display: flex;
+    }
+    .iconLinks {
+        width: 100%;
+    }
+    #prefootMid img {
+        padding: 2%
+    }
+    .bottomFooter {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        background-color: #f6f1d1;
+        -webkit-box-shadow: 0 -6px 6px 0 #40798c;
+        -moz-box-shadow: 0 -6px 6px 0 #40798c;
+        box-shadow: 0 -6px 6px 0 #40798c;
+    }
+    .bottomFooter a {
+        color: #70a9a1;
+    }
+    .bottomFooter a:hover {
+        color: #40798c;
+    }
+
+    /**************
+    *  
+    * Home Page
+    *
+    ***************/
+    /* Hero img and book now btn */
+    #mainWelcome {
+        display: flex;
+    }
+    #mainWelcome img {
+        border-radius: 0.2em;
+        -webkit-box-shadow: 2px 8px 16px 2px #40798c;
+    -moz-box-shadow: 2px 8px 16px 2px #40798c;
+            box-shadow: 2px 8px 16px 2px #40798c;
+    }
+    #mainWelcome h1 {
+        font-size: 2.262em;
+    }
+    #mainWelcome a {
+        color: #70a9a1;
+    }
+    #mainWelcome a:hover {
+        color: #40798c;
+    }
+    #welcomeSubTitle {
+        font-size: 1.5em;
+    }
+    #homeContent {
+        margin: 0 auto;
+    }
+    .homeMain {
+        display: flex;
+    }
+    /* Hero Img Section */
+    .heroContainer a {
+        text-align: center;
+        background-color: #70a9a1;
+        color: #f6f1d1;
+        border-radius: 0.5em;
+        -webkit-box-shadow: 2px 8px 16px 2px #40798c;
+    -moz-box-shadow: 2px 8px 16px 2px #40798c;
+            box-shadow: 2px 8px 16px 2px #40798c;
+    }
+    .heroContainer a:hover {
+        background-color: #40798c;
+        color: #0b2027;
+    }
+    /* Temple Info Section */
+    .templeInfoContainer {
+        background-color: #f6f1d1;
+        padding: 2em;
+        border-radius: 0.2em;
+        display: flex;
+    }
+    .indTempImg {
+        padding-top: 2em;
+        align-self: flex-start;
+    }
+    .indTempImg img{
+        max-width: 100%;
+        border-radius: 0.2em;
+    }
+    .templeTextContainer{
+        margin-left: 2em;
+    }
+    .mainTempleInfoHome h3{
+        margin-bottom: -0.5em;
+    }
+    
+    /* Amenities Section */
+    .amenitiesHome {
+        background-color: #0b2027;
+        padding: 2em;
+        border-radius: 0.2em;
+        color: #f6f1d1;
+    }
+    .amenitiesHome li {
+        padding: 0.38em 0;
+        list-style: none; 
+    }
+    .amenitiesHome li:before {
+        content: "\2022";
+        color: #70a9a1;
+        font-weight: bold;
+        display: inline-block; 
+        width: 3em;
+        margin-left: -3em;
+    }
+
+
+
+    /**************
+    *  
+    * Temple Page
+    *
+    ***************/
+    .templeTitleBox {
+        width: 300px;
+        margin: 3em 2em 0 0;
+        padding: 15px;
+        background-color: #0b2027;
+        color: #f6f1d1;
+        border-radius: 2%;
+    }
+    .weatherSumBox {
+        max-width: 300px;
+        margin: 3em 2em 0 0;
+        padding: 15px;
+        background-color: #0b2027;
+        color: #f6f1d1;
+        border-radius: 2%;
+    }
+    .weatherSumBox .value {
+        color: #40798c;
+    }
+    
+    .weatherInfoLine .label, .weatherInfoLine .value {
+        display: inline-block;
+        margin: 2px;
+    }
+    .wImageDiv {
+        max-width: 100px;
+        margin: 0 auto;
+    }
+    
+.templeInfoContainerBox {
+    max-width: 300px;
+    margin: 1em;
+    padding-top: 0.5em;
+    padding: 1em;
+    background-color: #0b2027;
+    color: #f6f1d1;
+    border-radius: 2%;
+}
+.clickSlideToggle:hover {
+    color: #40798c;
+    cursor: pointer;
+}
+#smallViewBtoTop {
+    position: fixed;
+    border-radius: 1em;
+    display: block;
+    bottom: 0.5em;
+    right: 1.5em;
+    border: none;
+    background-color: #40798c;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    -webkit-box-shadow: 2px 8px 16px 2px #40798c;
+    -moz-box-shadow: 2px 8px 16px 2px #40798c;
+            box-shadow: 2px 8px 16px 2px #40798c;
+}
+#smallViewBtoTop:focus {outline:0;}
+
+
+/**************
+*  
+* Services Page
+*
+***************/
+/* Services Main Section */
+
+#servicesMain {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+.servicesInfoContainer {
+    background-color: #40798c;
+    width: 375px;
+    padding: 2em;
+    border-radius: 0.2em;
+    color: #f6f1d1;
+    margin: 2em;
+    -webkit-box-shadow: 2px 8px 16px 2px #40798c;
+    -moz-box-shadow: 2px 8px 16px 2px #40798c;
+    box-shadow: 2px 8px 16px 2px #40798c;
+}
+.servicesInfoContainer img {
+    border-radius: 2%;
+    width: 100%;
+    margin: 0 auto;
+    -webkit-box-shadow: 2px 8px 16px 2px #40798c;
+    -moz-box-shadow: 2px 8px 16px 2px #40798c;
+    box-shadow: 2px 8px 16px 2px #40798c;
+}
+.servicesInfoContainer li {
+    padding: 0.38em 0;
+    list-style: none; 
+}
+.servicesInfoContainer li:before {
+    content: "\2022";
+    color: #0b2027;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+}
+
+
+
+
+/**************
+*  
+* Reservation Page
+*
+***************/
+#reservationBackground {
+    background-image: url("../images/reservations/reservationBackground.jpg");
+    background-color: #cfd7c7;
+    background-position:center;
+	background-repeat:no-repeat;
+    background-size:cover; 
+    width:100%;
+}
+/* Form Title */
+#reservationTitle {
+    color: #70a9a1;
+}
+
+/* Form Container */
+.reservationFormWrapper {
+    background: #40798c;
+    border-radius: 5px;
+    box-shadow: 0 0 10px;
+}
+/* Form Content */
+#upperUpper, #lowerUpper {
+    display: flex;
+}
+#upperUpper > div, #lowerUpper > div {
+    justify-content: space-evenly;
+    margin-right: 1.5em;
+}
+/* Form Inputs */
+input[type=date]::-webkit-inner-spin-button,
+input[type=date]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.reservationForm input::placeholder {
+    color: #0b2027;
+}
+.reservationForm .input-field .input, .reservationForm .message textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    color: #0b2027;
+}
+.reservationForm .subjArea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #70a9a1;
+    padding: 5px;
+    color: #0b2027;
+}
+.reservationForm .messageReservation {
+    display: flex;
+    margin: 1em;
+}
+.reservationForm .subjOpt {
+    color: #0b2027;
+}
+
+
+
+/**************
+*  
+* Contact Page
+*
+***************/
+.containerContact{
+    display: flex;
+    width: 100%;
+    background-color: #f6f1d1;
+    margin-bottom: -5em;
+    padding-bottom: 2em;
+}
+#contactHeader {
+    margin: 1.5em auto;
+    text-align: center;
+}
+.formField{
+    display: flex;
+}
+.formField .contact-form, .formField .bznssInfo{
+    margin: 2em;
+}
+.contact-form{
+    background: #0b2027;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px;
+}
+input::placeholder {
+    color: #cfd7c7;
+}
+.input-field{
+    display: flex;
+}
+.input-field .input, .message textarea{
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #70a9a1;
+    padding: 10px;
+    color: #cfd7c7;
+}
+.subjArea {
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid #70a9a1;
+    padding: 5px;
+    color: #cfd7c7;
+}
+.message textarea{
+    height: 100px;
+    width: 100%;
+}
+.btn {
+    background-color: #f6f1d1;
+    max-width: 100%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: #40798c;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    -webkit-box-shadow: 2px 8px 16px 2px #40798c;
+    -moz-box-shadow: 2px 8px 16px 2px #40798c;
+    box-shadow: 2px 8px 16px 2px #40798c;
+}
+.btn:hover {
+    background: #70a9a1;
+    color: #40798c;
+    -webkit-box-shadow: 1px 4px 8px 1px #40798c;
+    -moz-box-shadow: 1px 4px 8px 1px #40798c;
+    box-shadow: 1px 4px 8px 1px #40798c;
+}
+.bznssInfo{
+    display: flex;
+    margin-left: 4em;
+}
+
+input:not([type="submit"]):valid:focus,
+textarea:valid:focus {
+    box-shadow: 0 0 10px #40798c;   
+    outline: 0;
+}
+input:not([type="submit"]):invalid:focus,
+textarea:invalid:focus {
+    box-shadow: 0 0 10px ;   
+    outline: 0;
+}
+
+input[type="text"]#name:focus:invalid ~ #nameLbl:before {
+    content: "Please enter your name!";
+    color: #0b2027;
+    font-size: 0.8em;
+}
+input:focus:valid ~ #nameLbl:before {
+    content: "Great, thank you!";
+    color: #40798c;
+    font-size: 0.8em;
+}
+.subjOpt {
+    color: #70a9a1;
+}
+
+#contactFooterDiv {
+    margin-top: 0;
+    background-color: #f6f1d1;
+}
+
+
+/**************
+*  
+* Resources Page
+*
+***************/
+#resourcesContainer {
+    margin: 1em auto;
+}
+#resourcesContainer li {
+    margin: 1em auto;
+}
+#resourcesContainer a {
+    color: #40798c;
+}
+#resourcesContainer a:hover {
+    color: #70a9a1;
+}
