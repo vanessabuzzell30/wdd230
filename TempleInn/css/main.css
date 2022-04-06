@@ -264,11 +264,11 @@
         margin: 3em 2em 0 0;
         padding: 15px;
         background-color: #0b2027;
-        color: #f6f1d1;
+        color: white;
         border-radius: 2%;
     }
     .weatherSumBox .value {
-        color: #40798c;
+        color: #f6f1d1;
     }
     
     .weatherInfoLine .label, .weatherInfoLine .value {
@@ -363,7 +363,7 @@
 *
 ***************/
 #reservationBackground {
-    background-image: url("../images/reservations/resBack.jpg");
+    background-image: url("../images/reservations/ReseBack.jpg");
     background-color: #cfd7c7;
     background-position:center;
 	background-repeat:no-repeat;
@@ -372,7 +372,7 @@
 }
 /* Form Title */
 #reservationTitle {
-    color: #70a9a1;
+    color: white;
 }
 
 /* Form Container */
@@ -411,7 +411,7 @@ input[type=date]::-webkit-outer-spin-button {
     border: 0;
     border-bottom: 2px solid #70a9a1;
     padding: 5px;
-    color: #0b2027;
+    color: white;
 }
 .reservationForm .messageReservation {
     display: flex;
