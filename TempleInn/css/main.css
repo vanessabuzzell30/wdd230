@@ -98,7 +98,7 @@
 
     /* footer section */
     #prefootMid img:hover {
-        box-shadow: 2px 4px 8px 2px 40798c, 0 6px 20px 0 40798c;
+        box-shadow: 2px 4px 8px 2px #40798c, 0 6px 20px 0 40798c;
         border-radius: 50%;
     }
     .footerBzInfo{
