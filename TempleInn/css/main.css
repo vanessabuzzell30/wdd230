@@ -81,7 +81,7 @@
     nav button:focus {outline:0;}
     nav button:hover {
         background-color: #cfd7c7;
-        color: #70a9a1;
+        color: #0b2027;
     }
 
     /* Page Title */
@@ -191,7 +191,7 @@
     /* Hero Img Section */
     .heroContainer a {
         text-align: center;
-        background-color: #70a9a1;
+        background-color: #40798c;
         color: #f6f1d1;
         border-radius: 0.5em;
         -webkit-box-shadow: 2px 8px 16px 2px #40798c;
@@ -199,8 +199,8 @@
             box-shadow: 2px 8px 16px 2px #40798c;
     }
     .heroContainer a:hover {
-        background-color: #40798c;
-        color: #0b2027;
+        background-color: #0b2027;
+        color: #f6f1d1;
     }
     /* Temple Info Section */
     .templeInfoContainer {
@@ -327,7 +327,7 @@
     width: 375px;
     padding: 2em;
     border-radius: 0.2em;
-    color: #f6f1d1;
+    color: white;
     margin: 2em;
     -webkit-box-shadow: 2px 8px 16px 2px #40798c;
     -moz-box-shadow: 2px 8px 16px 2px #40798c;
@@ -547,8 +547,8 @@ input:focus:valid ~ #nameLbl:before {
     margin: 1em auto;
 }
 #resourcesContainer a {
-    color: #40798c;
+    color: #0b2027;
 }
 #resourcesContainer a:hover {
-    color: #70a9a1;
+    color: #2C535E;
 }
