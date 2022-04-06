@@ -75,7 +75,7 @@
     nav button {
         position: absolute;
         border: none;
-        background: #cfd7c7;
+        background: #40798c;
         font-weight: bold;
     }
     nav button:focus {outline:0;}

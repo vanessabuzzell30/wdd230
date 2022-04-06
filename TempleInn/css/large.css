@@ -18,7 +18,7 @@
   /* Navigation */
   nav button { display: none; }
   .active {
-  background-color: #cfd7c7;
+  background-color: #0B2027;
   border-radius: 4em 4em 0 0;
   }
 
@@ -48,7 +48,7 @@
   color: #0B2027;
   }
   .navigation a:hover {
-  color: #cfd7c7;
+  color: #40798c;
   text-decoration: overline;
   text-decoration-color: #0B2027;
   }
@@ -57,7 +57,7 @@
   border-radius: 4em 4em 0 0;
   }
   .active a:hover {
-  color: #cfd7c7;
+  color: #40798c;
   text-decoration: none;
   }
 
