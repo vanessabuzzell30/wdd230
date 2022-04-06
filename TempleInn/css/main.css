@@ -143,16 +143,16 @@
         width: 100%;
         text-align: center;
         margin: 0;
-        background-color: #f6f1d1;
+        background-color: #40798c;
         -webkit-box-shadow: 0 -6px 6px 0 #40798c;
         -moz-box-shadow: 0 -6px 6px 0 #40798c;
         box-shadow: 0 -6px 6px 0 #40798c;
     }
     .bottomFooter a {
-        color: #70a9a1;
+        color: #cfd7c7;
     }
     .bottomFooter a:hover {
-        color: #40798c;
+        color: #F6F1D1;
     }
 
     /**************
