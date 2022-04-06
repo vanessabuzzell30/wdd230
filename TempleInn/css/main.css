@@ -48,7 +48,7 @@
         width: 10em;
     }
     #siteLogo:hover {
-        -webkit-filter: drop-shadow(5px 2px 2px #40798c);
+        -webkit-filter: drop-shadow(5px 2px 2px white);
     filter: drop-shadow(5px 2px 2px #40798c);
     }
 
@@ -420,7 +420,7 @@ input[type=date]::-webkit-outer-spin-button {
     margin: 1em;
 }
 .reservationForm .subjOpt {
-    color: #0b2027;
+    color: white;
 }
 
 
