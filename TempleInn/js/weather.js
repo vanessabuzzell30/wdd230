@@ -1,5 +1,5 @@
 
-// Copenhagen
+// arizona
 var AriRequest = new XMLHttpRequest();
 AriRequest.open('GET', 'https://api.openweathermap.org/data/2.5/weather?q=Arizona&units=imperial&appid=8ce342ec0bef6453a2de8960f69f0afa');
 AriRequest.onload = function () {
@@ -47,7 +47,7 @@ AriRequest.onload = function () {
 AriRequest.send();
 
 
-// Johannesburg
+// Austraila
 var AustRequest = new XMLHttpRequest();
 AustRequest.open('GET', 'https://api.openweathermap.org/data/2.5/weather?q=Australia&units=imperial&appid=8ce342ec0bef6453a2de8960f69f0afa');
 AustRequest.onload = function () {
@@ -95,7 +95,7 @@ AustRequest.onload = function () {
 AustRequest.send();
 
 
-// Las Vegas
+// california
 var CaliRequest = new XMLHttpRequest();
 CaliRequest.open('GET', 'https://api.openweathermap.org/data/2.5/weather?q=California&units=imperial&appid=8ce342ec0bef6453a2de8960f69f0afa');
 CaliRequest.onload = function () {
@@ -143,7 +143,7 @@ CaliRequest.onload = function () {
 CaliRequest.send();
 
 
-// Portland
+// seatttle
 var SeaRequest = new XMLHttpRequest();
 SeaRequest.open('GET', 'https://api.openweathermap.org/data/2.5/weather?q=Washington&units=imperial&appid=8ce342ec0bef6453a2de8960f69f0afa');
 SeaRequest.onload = function () {
